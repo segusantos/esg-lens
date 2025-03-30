@@ -294,9 +294,10 @@ export function ReportDetail({ id }: ReportDetailProps) {
     if (report) {
       try {
         // Check all possible locations for the PDF URL
-        const pdfUrl = report.fileUrl || 
-                      (report.file_url ? report.file_url : 
-                      `/api/reports/${report.id}/download`);
+        console.log("Report data for PDF download:", report);
+        const pdfUrl = report.SCORES.company_pdf || 
+                      (report.SCORES.company_pdf ? report.SCORES.company_pdf : 
+                      `/api/process_reports/data/reports/${report.id}/download`);
         
         // For testing/demo purposes - you can remove this line in production
         if (!pdfUrl || pdfUrl === "#") {
