@@ -9,9 +9,9 @@ export function MainNav() {
   const pathname = usePathname()
 
   const navItems = [
-    { href: "/dashboard", label: "Dashboard" },
-    { href: "/upload", label: "Upload Report" },
-    { href: "/compare", label: "Compare Reports" },
+    { href: "/dashboard", label: "Panel principal" },
+    { href: "/upload", label: "Subir informe" },
+    { href: "/compare", label: "Comparar informes" },
   ]
 
   return (

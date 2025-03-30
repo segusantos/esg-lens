@@ -11,12 +11,12 @@ export default function LandingPage() {
         </div>
         <h1 className="text-4xl font-bold mb-4 text-indigo-800">ESG Lens</h1>
         <p className="text-xl mb-8 text-gray-700">
-          Analyze, compare, and extract valuable insights from ESG reports using advanced NLP. Track sustainability
-          metrics, generate ESG scores, and make data-driven decisions.
+          Analice, compare y extraiga información valiosa de informes ESG utilizando NLP avanzado. Realice seguimiento de
+          métricas de sostenibilidad, genere puntuaciones ESG y tome decisiones basadas en datos.
         </p>
         <Link href="/dashboard">
           <Button className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-6 text-lg rounded-lg">
-            Get Started
+            Comenzar
           </Button>
         </Link>
       </div>

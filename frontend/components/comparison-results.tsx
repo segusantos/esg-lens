@@ -28,17 +28,17 @@ interface ComparisonResultsProps {
 export function ComparisonResults({ type }: ComparisonResultsProps) {
   // Mock data for demonstration
   const companiesData = [
-    { category: "Environmental", company1: 92, company2: 72 },
+    { category: "General", company1: 87, company2: 78 },
+    { category: "Ambiental", company1: 92, company2: 72 },
     { category: "Social", company1: 85, company2: 81 },
-    { category: "Governance", company1: 84, company2: 82 },
-    { category: "Overall ESG", company1: 87, company2: 78 },
+    { category: "Gobernanza", company1: 84, company2: 82 },
   ]
 
   const yearsData = [
-    { category: "Environmental", year1: 92, year2: 88 },
+    { category: "General", year1: 87, year2: 82 },
+    { category: "Ambiental", year1: 92, year2: 88 },
     { category: "Social", year1: 85, year2: 80 },
-    { category: "Governance", year1: 84, year2: 79 },
-    { category: "Overall ESG", year1: 87, year2: 82 },
+    { category: "Gobernanza", year1: 84, year2: 79 },
   ]
 
   const radarData =
@@ -73,12 +73,12 @@ export function ComparisonResults({ type }: ComparisonResultsProps) {
     if (type === "companies") {
       return {
         first: "#22c55e", // Environmental green for first company
-        second: "#3b82f6", // Social blue for second company
+        second: "#F97316", // Orange for governance (changed from blue)
       }
     } else {
       return {
         first: "#6366f1", // Indigo for current year
-        second: "#f97316", // Governance orange for previous year
+        second: "#F97316", // Governance orange for previous year
       }
     }
   }
@@ -87,19 +87,19 @@ export function ComparisonResults({ type }: ComparisonResultsProps) {
 
   return (
     <div className="space-y-6 mt-8">
-      <h2 className="text-2xl font-bold">Comparison Results</h2>
+      <h2 className="text-2xl font-bold">Resultados de comparación</h2>
 
       <Tabs defaultValue="scores">
         <TabsList>
-          <TabsTrigger value="scores">ESG Scores</TabsTrigger>
-          <TabsTrigger value="details">Detailed Comparison</TabsTrigger>
-          <TabsTrigger value="radar">Radar Analysis</TabsTrigger>
+          <TabsTrigger value="scores">Puntuaciones ESG</TabsTrigger>
+          <TabsTrigger value="details">Comparación detallada</TabsTrigger>
+          <TabsTrigger value="radar">Análisis radar</TabsTrigger>
         </TabsList>
 
         <TabsContent value="scores" className="mt-4">
           <Card>
             <CardHeader>
-              <CardTitle>ESG Score Comparison</CardTitle>
+              <CardTitle>Comparación de puntuaciones ESG</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="h-80">
@@ -128,24 +128,24 @@ export function ComparisonResults({ type }: ComparisonResultsProps) {
               <CardContent>
                 <ul className="space-y-2">
                   <li className="flex justify-between">
-                    <span>Report Quality:</span>
-                    <span className="font-medium">High</span>
+                    <span>Calidad del informe:</span>
+                    <span className="font-medium">Alta</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Disclosure Level:</span>
-                    <span className="font-medium">Comprehensive</span>
+                    <span>Nivel de divulgación:</span>
+                    <span className="font-medium">Completo</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Carbon Emissions:</span>
-                    <span className="font-medium">15% Reduction YoY</span>
+                    <span>Emisiones de carbono:</span>
+                    <span className="font-medium">Reducción del 15% interanual</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Renewable Energy:</span>
-                    <span className="font-medium">78% of Total</span>
+                    <span>Energía renovable:</span>
+                    <span className="font-medium">78% del total</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Diversity Metrics:</span>
-                    <span className="font-medium">42% Women in Leadership</span>
+                    <span>Métricas de diversidad:</span>
+                    <span className="font-medium">42% mujeres en liderazgo</span>
                   </li>
                 </ul>
               </CardContent>
@@ -158,24 +158,24 @@ export function ComparisonResults({ type }: ComparisonResultsProps) {
               <CardContent>
                 <ul className="space-y-2">
                   <li className="flex justify-between">
-                    <span>Report Quality:</span>
-                    <span className="font-medium">Medium</span>
+                    <span>Calidad del informe:</span>
+                    <span className="font-medium">Media</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Disclosure Level:</span>
-                    <span className="font-medium">Partial</span>
+                    <span>Nivel de divulgación:</span>
+                    <span className="font-medium">Parcial</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Carbon Emissions:</span>
-                    <span className="font-medium">8% Reduction YoY</span>
+                    <span>Emisiones de carbono:</span>
+                    <span className="font-medium">Reducción del 8% interanual</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Renewable Energy:</span>
-                    <span className="font-medium">45% of Total</span>
+                    <span>Energía renovable:</span>
+                    <span className="font-medium">45% del total</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Diversity Metrics:</span>
-                    <span className="font-medium">35% Women in Leadership</span>
+                    <span>Métricas de diversidad:</span>
+                    <span className="font-medium">35% mujeres en liderazgo</span>
                   </li>
                 </ul>
               </CardContent>
@@ -186,7 +186,7 @@ export function ComparisonResults({ type }: ComparisonResultsProps) {
         <TabsContent value="radar" className="mt-4">
           <Card>
             <CardHeader>
-              <CardTitle>ESG Factors Radar Chart</CardTitle>
+              <CardTitle>Gráfico radar de factores ESG</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="h-96">

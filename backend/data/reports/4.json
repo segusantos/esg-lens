@@ -1,0 +1,39 @@
+{
+  "id": "4",
+  "company": "Healthcare Solutions",
+  "ticker": "HCS",
+  "year": 2023,
+  "industry": "Healthcare",
+  "esg_score": 82,
+  "environment_score": 79,
+  "social_score": 86,
+  "governance_score": 81,
+  "report_quality": "High",
+  "publish_date": "2023-02-28",
+  "file_url": "#",
+  "website_url": "https://www.healthcaresolutions.com",
+  "summary": "Healthcare Solutions presenta un informe ESG integral con fortalezas notables en la dimensión social, especialmente en acceso a la atención médica y programas de equidad en salud. La empresa también muestra buen progreso en iniciativas ambientales y prácticas de gobernanza.",
+  "strengths": [
+    "Excelentes programas de acceso a atención médica",
+    "Buena gestión de residuos médicos",
+    "Sólidas políticas éticas para ensayos clínicos",
+    "Inversión significativa en innovación sostenible"
+  ],
+  "weaknesses": [
+    "Divulgación limitada de emisiones de la cadena de suministro",
+    "Falta de objetivos específicos para diversidad de proveedores",
+    "Informes limitados sobre precios de medicamentos"
+  ],
+  "recommendations": [
+    "Ampliar medición y divulgación de emisiones Alcance 3",
+    "Desarrollar programa robusto de diversidad de proveedores",
+    "Aumentar transparencia en estrategias de precios"
+  ],
+  "key_metrics": {
+    "patientAccess": "2.3 millones de pacientes en programas de asistencia",
+    "medicalWaste": "85% reciclado o procesado de manera sostenible",
+    "researchEthics": "100% de ensayos con revisión ética",
+    "carbonFootprint": "65,000 toneladas (reducción del 10% interanual)",
+    "diversityMetrics": "45% de mujeres en posiciones técnicas"
+  }
+}

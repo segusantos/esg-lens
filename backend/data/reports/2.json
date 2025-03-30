@@ -1,0 +1,41 @@
+{
+  "id": "2",
+  "company": "Tech Innovations Inc",
+  "ticker": "TII",
+  "year": 2023,
+  "industry": "Technology",
+  "esg_score": 78,
+  "environment_score": 72,
+  "social_score": 81,
+  "governance_score": 82,
+  "report_quality": "Medium",
+  "publish_date": "2023-03-22",
+  "file_url": "#",
+  "website_url": "https://www.techinnovations.com",
+  "summary": "Tech Innovations Inc muestra un buen progreso en sus iniciativas ESG, con fortalezas particulares en gobernanza y prácticas sociales. La empresa tiene algunas áreas de mejora en la gestión ambiental, particularmente en el uso de energía en centros de datos y la cadena de suministro de hardware.",
+  "strengths": [
+    "Políticas sólidas de privacidad de datos y seguridad",
+    "Excelentes programas de diversidad e inclusión",
+    "Estructura de gobernanza bien definida",
+    "Fuerte énfasis en la ética y el cumplimiento"
+  ],
+  "weaknesses": [
+    "Estrategia de reducción de carbono limitada",
+    "Falta de objetivos claros para energía renovable",
+    "Información limitada sobre programas de economía circular"
+  ],
+  "recommendations": [
+    "Desarrollar una estrategia integral de reducción de carbono",
+    "Establecer objetivos claros para energía renovable en centros de datos",
+    "Mejorar el informe sobre el ciclo de vida del producto"
+  ],
+  "key_metrics": {
+    "carbonEmissions": "86,000 toneladas",
+    "renewableEnergy": "45% del consumo total de energía",
+    "dataPrivacyIncidents": "0 incidentes reportados",
+    "diversityScore": "38% de mujeres en la fuerza laboral",
+    "employeeSatisfaction": "85% de puntuación en encuesta",
+    "ethicsTraining": "100% de empleados completaron capacitación",
+    "boardDiversity": "40% de género diverso"
+  }
+}

@@ -26,23 +26,23 @@ export function CompareForm() {
     <div className="space-y-6">
       <Tabs defaultValue="companies" onValueChange={setComparisonType}>
         <TabsList className="grid w-full max-w-md grid-cols-2">
-          <TabsTrigger value="companies">Different Companies</TabsTrigger>
-          <TabsTrigger value="years">Time Periods</TabsTrigger>
+          <TabsTrigger value="companies">Diferentes empresas</TabsTrigger>
+          <TabsTrigger value="years">Períodos de tiempo</TabsTrigger>
         </TabsList>
 
         <TabsContent value="companies" className="mt-4">
           <Card>
             <CardHeader>
-              <CardTitle>Compare Companies</CardTitle>
-              <CardDescription>Compare ESG reports between two different companies for the same year</CardDescription>
+              <CardTitle>Comparar empresas</CardTitle>
+              <CardDescription>Compare informes ESG entre dos empresas diferentes para el mismo año</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-2">
-                  <h3 className="text-sm font-medium">First Company</h3>
+                  <h3 className="text-sm font-medium">Primera empresa</h3>
                   <Select>
                     <SelectTrigger>
-                      <SelectValue placeholder="Select company" />
+                      <SelectValue placeholder="Seleccionar empresa" />
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="gec">Green Energy Corp (GEC)</SelectItem>
@@ -54,10 +54,10 @@ export function CompareForm() {
                   </Select>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-sm font-medium">Second Company</h3>
+                  <h3 className="text-sm font-medium">Segunda empresa</h3>
                   <Select>
                     <SelectTrigger>
-                      <SelectValue placeholder="Select company" />
+                      <SelectValue placeholder="Seleccionar empresa" />
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="gec">Green Energy Corp (GEC)</SelectItem>
@@ -71,10 +71,10 @@ export function CompareForm() {
               </div>
 
               <div className="space-y-2">
-                <h3 className="text-sm font-medium">Report Year</h3>
+                <h3 className="text-sm font-medium">Año del informe</h3>
                 <Select defaultValue="2023">
                   <SelectTrigger>
-                    <SelectValue placeholder="Select year" />
+                    <SelectValue placeholder="Seleccionar año" />
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="2023">2023</SelectItem>
@@ -87,7 +87,7 @@ export function CompareForm() {
             </CardContent>
             <CardFooter>
               <Button className="w-full" onClick={handleCompare} disabled={isComparing}>
-                {isComparing ? "Comparing..." : "Compare Reports"}
+                {isComparing ? "Comparando..." : "Comparar informes"}
               </Button>
             </CardFooter>
           </Card>
@@ -96,15 +96,15 @@ export function CompareForm() {
         <TabsContent value="years" className="mt-4">
           <Card>
             <CardHeader>
-              <CardTitle>Compare Time Periods</CardTitle>
-              <CardDescription>Compare ESG reports for the same company across different years</CardDescription>
+              <CardTitle>Comparar períodos de tiempo</CardTitle>
+              <CardDescription>Compare informes ESG para la misma empresa en diferentes años</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="space-y-2">
-                <h3 className="text-sm font-medium">Company</h3>
+                <h3 className="text-sm font-medium">Empresa</h3>
                 <Select>
                   <SelectTrigger>
-                    <SelectValue placeholder="Select company" />
+                    <SelectValue placeholder="Seleccionar empresa" />
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="gec">Green Energy Corp (GEC)</SelectItem>
@@ -118,10 +118,10 @@ export function CompareForm() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-2">
-                  <h3 className="text-sm font-medium">First Year</h3>
+                  <h3 className="text-sm font-medium">Primer año</h3>
                   <Select defaultValue="2023">
                     <SelectTrigger>
-                      <SelectValue placeholder="Select year" />
+                      <SelectValue placeholder="Seleccionar año" />
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="2023">2023</SelectItem>
@@ -132,10 +132,10 @@ export function CompareForm() {
                   </Select>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-sm font-medium">Second Year</h3>
+                  <h3 className="text-sm font-medium">Segundo año</h3>
                   <Select defaultValue="2022">
                     <SelectTrigger>
-                      <SelectValue placeholder="Select year" />
+                      <SelectValue placeholder="Seleccionar año" />
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="2023">2023</SelectItem>
@@ -149,7 +149,7 @@ export function CompareForm() {
             </CardContent>
             <CardFooter>
               <Button className="w-full" onClick={handleCompare} disabled={isComparing}>
-                {isComparing ? "Comparing..." : "Compare Reports"}
+                {isComparing ? "Comparando..." : "Comparar informes"}
               </Button>
             </CardFooter>
           </Card>

@@ -1,59 +1,42 @@
-import type * as React from "react"
-import { cn } from "@/lib/utils"
+import React from 'react';
 
-interface ESGProgressProps extends React.HTMLAttributes<HTMLDivElement> {
-  value: number
-  max?: number
-  type?: "environmental" | "social" | "governance"
-  showValue?: boolean
-}
+type ESGProgressProps = {
+  value: number;
+  type: 'environmental' | 'social' | 'governance' | 'overall';
+};
 
-export function ESGProgress({
-  className,
-  value,
-  max = 100,
-  type = "environmental",
-  showValue = false,
-  ...props
-}: ESGProgressProps) {
-  const percentage = (value / max) * 100
+export function ESGProgress({ value, type }: ESGProgressProps) {
+  // Map ESG type to tailwind classes for colors
+  const colorMap = {
+    environmental: {
+      bg: 'bg-green-600',
+      bgLight: 'bg-green-100',
+    },
+    social: {
+      bg: 'bg-blue-600',
+      bgLight: 'bg-blue-100',
+    },
+    governance: {
+      bg: 'bg-orange-500',
+      bgLight: 'bg-orange-100',
+    },
+    overall: {
+      bg: 'bg-indigo-600',
+      bgLight: 'bg-indigo-100',
+    },
+  };
 
-  const getBackgroundColor = () => {
-    switch (type) {
-      case "environmental":
-        return "bg-esg-environmental-light"
-      case "social":
-        return "bg-esg-social-light"
-      case "governance":
-        return "bg-esg-governance-light"
-      default:
-        return "bg-gray-100"
-    }
-  }
-
-  const getIndicatorColor = () => {
-    switch (type) {
-      case "environmental":
-        return "bg-esg-environmental"
-      case "social":
-        return "bg-esg-social"
-      case "governance":
-        return "bg-esg-governance"
-      default:
-        return "bg-primary"
-    }
-  }
+  const colors = colorMap[type];
 
   return (
-    <div className={cn("relative h-2 w-full overflow-hidden rounded-full", getBackgroundColor(), className)} {...props}>
-      <div
-        className={cn("h-full w-full flex-1 transition-all", getIndicatorColor())}
-        style={{ transform: `translateX(-${100 - percentage}%)` }}
-      />
-      {showValue && (
-        <span className="absolute inset-0 flex items-center justify-center text-xs font-medium">{value}%</span>
-      )}
+    <div className="w-full">
+      <div className={`h-2 rounded-full ${colors.bgLight}`}>
+        <div
+          className={`h-2 rounded-full ${colors.bg}`}
+          style={{ width: `${value}%` }}
+        />
+      </div>
     </div>
-  )
+  );
 }
 
