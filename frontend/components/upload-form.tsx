@@ -25,7 +25,7 @@ export function UploadForm() {
   const [ticker, setTicker] = useState("")
   const [website, setWebsite] = useState("")
   const [year, setYear] = useState("2023")
-  const [industry, setIndustry] = useState("Energy")
+  const [industry, setIndustry] = useState("Energía")
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
@@ -164,12 +164,12 @@ export function UploadForm() {
                   <SelectValue placeholder="Seleccionar industria" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="Energy">Energía</SelectItem>
-                  <SelectItem value="Technology">Tecnología</SelectItem>
-                  <SelectItem value="Finance">Finanzas</SelectItem>
+                  <SelectItem value="Energía">Energía</SelectItem>
+                  <SelectItem value="Tecnología">Tecnología</SelectItem>
+                  <SelectItem value="Finanzas">Finanzas</SelectItem>
                   <SelectItem value="Healthcare">Salud</SelectItem>
-                  <SelectItem value="Consumer Goods">Bienes de consumo</SelectItem>
-                  <SelectItem value="Other">Otro</SelectItem>
+                  <SelectItem value="Bienes de Consumo">Bienes de Consumo</SelectItem>
+                  <SelectItem value="Otra">Otro</SelectItem>
                 </SelectContent>
               </Select>
             </div>

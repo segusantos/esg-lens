@@ -89,7 +89,7 @@ export function ReportsList() {
 
     // Apply min score filter
     if (filters.minScore !== null && filters.minScore !== undefined) {
-      filtered = filtered.filter(report => report.esgScore >= filters.minScore!)
+      filtered = filtered.filter(report => report.SCORES.overall_score >= filters.minScore!)
     }
 
     // Apply sorting

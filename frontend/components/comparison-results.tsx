@@ -285,7 +285,7 @@ export function ComparisonResults({ type, data }: ComparisonResultsProps) {
       }
     } else {
       return {
-        first: type === "companies" ? "Green Energy Corp" : "2023",
+        first: type === "companies" ? "Green Energía Corp" : "2023",
         second: type === "companies" ? "Tech Innovations Inc" : "2022"
       };
     }
@@ -324,7 +324,7 @@ export function ComparisonResults({ type, data }: ComparisonResultsProps) {
       <Tabs defaultValue="scores">
         <TabsList className="gap-1">
           <TabsTrigger value="scores" className="px-4">Puntuaciones ESG</TabsTrigger>
-          <TabsTrigger value="details" className="px-4">Comparación detallada</TabsTrigger>
+          <TabsTrigger value="details" className="px-4">Comparación</TabsTrigger>
           <TabsTrigger value="radar" className="px-4">Análisis radar</TabsTrigger>
         </TabsList>
 
@@ -333,22 +333,26 @@ export function ComparisonResults({ type, data }: ComparisonResultsProps) {
             <CardHeader>
               <CardTitle>Comparación de puntuaciones ESG</CardTitle>
               <CardDescription>
-                Comparando {labels.first} con {labels.second}
+          Comparando {labels.first} con {labels.second}
               </CardDescription>
             </CardHeader>
             <CardContent>
               <div className="h-80">
-                <ResponsiveContainer width="100%" height="100%">
-                  <BarChart data={chartData} layout="vertical" margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis type="number" domain={[0, 100]} />
-                    <YAxis dataKey="category" type="category" />
-                    <Tooltip formatter={(value: number) => [`${value} (${getLetterGrade(value)})`, ""]} />
-                    <Legend />
-                    <Bar dataKey={firstKey} name={labels.first} fill={barColors.first} />
-                    <Bar dataKey={secondKey} name={labels.second} fill={barColors.second} />
-                  </BarChart>
-                </ResponsiveContainer>
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart 
+              data={chartData} 
+              layout="vertical" 
+              margin={{ top: 20, right: 30, left: 60, bottom: 5 }}
+            >
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis type="number" domain={[0, 100]} />
+              <YAxis dataKey="category" type="category" width={100} />
+              <Tooltip formatter={(value: number) => [`${value} (${getLetterGrade(value)})`, ""]} />
+              <Legend />
+              <Bar dataKey={firstKey} name={labels.first} fill={barColors.first} />
+              <Bar dataKey={secondKey} name={labels.second} fill={barColors.second} />
+            </BarChart>
+          </ResponsiveContainer>
               </div>
             </CardContent>
           </Card>
@@ -377,14 +381,14 @@ export function ComparisonResults({ type, data }: ComparisonResultsProps) {
                         <span className="font-medium">{data.report1?.industry || "-"}</span>
                       </li>
                       <li className="flex justify-between">
-                        <span>Calidad del informe:</span>
-                        <span className="font-medium">{data.report1?.reportQuality || "-"}</span>
+                        <span>ESG Score:</span>
+                        <span className="font-medium">{data.report1.SCORES.overall_score || "-"}</span>
                       </li>
                     </>
                   ) : (
                     <>
                   <li className="flex justify-between">
-                    <span>Calidad del informe:</span>
+                          <span>ESG Score:</span>
                     <span className="font-medium">Alta</span>
                   </li>
                   <li className="flex justify-between">
@@ -430,14 +434,14 @@ export function ComparisonResults({ type, data }: ComparisonResultsProps) {
                         <span className="font-medium">{data.report2?.industry || "-"}</span>
                       </li>
                       <li className="flex justify-between">
-                        <span>Calidad del informe:</span>
-                        <span className="font-medium">{data.report2?.reportQuality || "-"}</span>
+                        <span>ESG Score:</span>
+                        <span className="font-medium">{data.report2.SCORES.overall_score || "-"}</span>
                       </li>
                     </>
                   ) : (
                     <>
                   <li className="flex justify-between">
-                    <span>Calidad del informe:</span>
+                    <span>ESG Score:</span>
                     <span className="font-medium">Media</span>
                   </li>
                   <li className="flex justify-between">

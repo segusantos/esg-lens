@@ -12,7 +12,7 @@ export function getLetterGrade(score: number): string {
   if (normalizedScore >= 60) return "B"; // 60-79
   if (normalizedScore >= 40) return "C"; // 40-59
   if (normalizedScore >= 20) return "D"; // 20-39
-  return "F";                            // 0-19
+  return "E";                            // 0-19
 }
 
 // Get text color class based on grade

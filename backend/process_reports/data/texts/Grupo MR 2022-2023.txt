@@ -5319,7 +5319,7 @@ Generales 2021
 2-2 Entidades incluidas en el reporte de sustentabilidad
 Matba Rofex S.A. | Argentina Clearing y Registro S.A. | Sistemas ESCO S.A. (Primary) consolidada
 de la organización
-con MtR Technology S.A. | Nexo Agente de Liquidación y Compensación Integral S.A. | Rofex
+con MtR Tecnología S.A. | Nexo Agente de Liquidación y Compensación Integral S.A. | Rofex
 Uruguay Bolsa de Valores y Futuros S.A. (UFEX) | Matriz S.A. (en liquidación) | Primary Ventures
 S.A. | Lumina Américas S.A.U. consolidada con Lumina Américas S.A. de C.V.
 Las sociedades controladas cuyos Estados Financieros han sido incluidos en los Estados Financieros
@@ -5410,7 +5410,7 @@ Prestación de servicios de redes
 S.A.U.²
 de comunicación e informática
 1 Los Estados Contables de Sistemas Esco S.A. consolidan los de su sociedad controlada uruguaya MtR
-Technology S.A. cuya participación asciende al 100%
+Tecnología S.A. cuya participación asciende al 100%
 2 Los Estados Contables de Lumina Americas S.A.U. consolidan los de su sociedad controlada mexicana
 Lumina Américas S.A. de C.V. cuya participación asciende al 98%. El 2% restante de la participación pertenece
 a Matba Rofex S.A. por lo cual los estados contables de la sociedad mexicana se consolidan en un 100%.

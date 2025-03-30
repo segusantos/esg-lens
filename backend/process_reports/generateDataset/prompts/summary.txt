@@ -45,10 +45,10 @@ Proporciona el resultado del análisis en formato de lista JSON. Un buen ejemplo
         "tags": ["beneficios para empleados"]
     },
     {
-        "value": "Bureau of Energy Resources",
+        "value": "Bureau of Energía Resources",
         "metric": false,
         "topic": "Gobernanza",
-        "description": "Expansión de la relación con Bureau of Energy Resources mediante nuevos contratos gubernamentales.",
+        "description": "Expansión de la relación con Bureau of Energía Resources mediante nuevos contratos gubernamentales.",
         "tags": ["asociaciones"]
     },
     {

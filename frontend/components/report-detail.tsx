@@ -38,10 +38,10 @@ import { api } from "@/lib/api"
 const mockReports = [
   {
     id: "1",
-    company: "Green Energy Corp",
+    company: "Green Energía Corp",
     ticker: "GEC",
     year: 2023,
-    industry: "Energy",
+    industry: "Energía",
     esgScore: 87,
     environmentScore: 92,
     socialScore: 85,
@@ -51,7 +51,7 @@ const mockReports = [
     fileUrl: "#",
     websiteUrl: "https://www.greenenergycorp.com",
     summary:
-      "Green Energy Corp demonstrates strong commitment to sustainability across all ESG dimensions. The company has made significant progress in reducing carbon emissions, increasing renewable energy usage, and implementing robust governance practices. The report provides comprehensive disclosure with quantitative metrics and clear targets.",
+      "Green Energía Corp demonstrates strong commitment to sustainability across all ESG dimensions. The company has made significant progress in reducing carbon emissions, increasing renewable energy usage, and implementing robust governance practices. The report provides comprehensive disclosure with quantitative metrics and clear targets.",
     strengths: [
       "Comprehensive carbon reduction strategy with clear targets",
       "Strong renewable energy transition plan",
@@ -501,7 +501,7 @@ export function ReportDetail({ id }: ReportDetailProps) {
                   </div>
                   <div className="flex justify-between items-center">
                     <span>Publicado</span>
-                    <span>{new Date(report.publishDate).toLocaleDateString()}</span>
+                    <span>{new Date(report.publish_date).toLocaleDateString()}</span>
                   </div>
                 </div>
               </CardContent>
@@ -512,8 +512,8 @@ export function ReportDetail({ id }: ReportDetailProps) {
         <TabsContent value="analysis" className="mt-8">
           <Card>
             <CardHeader>
-              <CardTitle>Análisis detallado</CardTitle>
-              <CardDescription>Análisis en profundidad del informe ESG por categoría</CardDescription>
+              <CardTitle>Análisis por Categoria</CardTitle>
+              <CardDescription>Según los datos de London Stock Exchange Group (LSEG)</CardDescription>
             </CardHeader>
             <CardContent>
               <Accordion type="single" collapsible className="w-full">

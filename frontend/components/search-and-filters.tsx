@@ -27,7 +27,7 @@ export function SearchAndFilters({ onFilterChange }: SearchAndFiltersProps) {
   const [maxScore, setMaxScore] = useState<number | null>(null)
   const [sortBy, setSortBy] = useState("date-desc")
 
-  const years = ["Todos los años", "2023", "2022", "2021", "2020", "2019"]
+  const years = ["Todos los años", "2025", "2024", "2023", "2022", "2021", "2020", "2019"]
 
   // Apply filters when any filter changes
   useEffect(() => {
@@ -145,11 +145,11 @@ export function SearchAndFilters({ onFilterChange }: SearchAndFiltersProps) {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">Todas las industrias</SelectItem>
-                    <SelectItem value="Technology">Tecnología</SelectItem>
-                    <SelectItem value="Energy">Energía</SelectItem>
-                    <SelectItem value="Finance">Finanzas</SelectItem>
+                    <SelectItem value="Tecnología">Tecnología</SelectItem>
+                    <SelectItem value="Energía">Energía</SelectItem>
+                    <SelectItem value="Finanzas">Finanzas</SelectItem>
                     <SelectItem value="Healthcare">Salud</SelectItem>
-                    <SelectItem value="Consumer Goods">Bienes de consumo</SelectItem>
+                    <SelectItem value="Bienes de Consumo">Bienes de Consumo</SelectItem>
                   </SelectContent>
                 </Select>
               </div>

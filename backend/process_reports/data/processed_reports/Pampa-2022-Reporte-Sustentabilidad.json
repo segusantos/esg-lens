@@ -137,7 +137,7 @@
       "Score": 0.5041438341140747
     },
     {
-      "Law": "Law 26.123 (2006) Promotion of Hydrogen Energy",
+      "Law": "Law 26.123 (2006) Promotion of Hydrogen Energía",
       "Score": 0.4336731433868408
     },
     {
@@ -165,11 +165,11 @@
       "Score": 0.3364043831825256
     },
     {
-      "Law": "Law 26.190 Regime for the National Promotion for the Production and Use of Renewable Sources of Electric Energy",
+      "Law": "Law 26.190 Regime for the National Promotion for the Production and Use of Renewable Sources of Electric Energía",
       "Score": 0.4070949554443359
     },
     {
-      "Law": "Law 27191 on Renewable Energy",
+      "Law": "Law 27191 on Renewable Energía",
       "Score": 0.3762134611606598
     },
     {
@@ -177,7 +177,7 @@
       "Score": 0.3244965970516205
     },
     {
-      "Law": "Law no 27424 creating the Promotion Regime for Distributed Generation of Renewable Energy Integrated in the Public Electricity Grid",
+      "Law": "Law no 27424 creating the Promotion Regime for Distributed Generation of Renewable Energía Integrated in the Public Electricity Grid",
       "Score": 0.4108377695083618
     },
     {
@@ -241,7 +241,7 @@
   "CONCLUSION": "\"# Resumen del Informe ESG de Pampa Energía\\n\\n## Hallazgos Clave:\\nEl informe ESG de Pampa Energía presenta varios indicadores de sostenibilidad y responsabilidad social que reflejan un compromiso con la mejora continua. Se destacan las siguientes métricas:\\n\\n- **Medioambiente**: Reducción del 25.2% en la extracción de agua en zonas de estrés hídrico, con un total de **690,820 m³**. Las emisiones de GEI ascienden a **11,863 tCO2e**, representando el 86.3% de las emisiones totales. Se proyecta emitir **500,000 certificados de emisiones** mediante prácticas sostenibles en parques eólicos.\\n  \\n- **Social**: Un total de **2,013 empleados**, de los cuales el 15.3% son mujeres, con una tasa de accidentes laborales reducida en un 45.9% desde 2021 (43.6% de tasa de accidentes).\\n\\n- **Gobernanza**: EBITDA ajustado de **908 millones de USD**, con buenas calificaciones en gestión y estrategia de responsabilidad social.\\n\\n## Evaluación de Cumplimiento:\\nEl informe muestra áreas de alineación y discrepancia con la legislación y las pautas estandarizadas en ESG. Classificaciones de similitud con leyes argentinas como la Ley 26.093 y la Ley 27.424 muestran un cumplimiento moderado.\\n\\n- **Cumplimiento General**: **Score Global**: 55\\n  - **Ambiental**: 38\\n  - **Social**: 45\\n  - **Gobernanza**: 95\\n\\n## Interpretación de los Puntajes ESG:\\nLos puntajes obtenidos reflejan un desempeño desigual. Mientras que la gobernanza presenta un puntaje fuerte (95), el desempeño ambiental es deficiente (38), especialmente en emisiones y uso de recursos.\\n\\n## Perspectivas de Similitud de Texto:\\nAlgunos apartados del informe muestran similitudes con regulaciones como:\\n- Ley 26.093 (producción y uso sostenible de biocombustibles): Score de similitud del **50%**.\\n- Ley 27.424 (generación de energía renovable): Score de similitud del **43%**.\\n\\nSin embargo, áreas críticas como la evaluación de impacto y la verificación de procesos muestran puntuaciones más bajas (alrededor del **33%**).\\n\\n## Mejoras Potenciales:\\n1. **Identificación de Audiencia**: Incluir una evaluación más detallada de las necesidades de los grupos de interés.\\n  \\n2. **Materialidad**: Mejorar la clara definición de los temas materiales y su impacto en los grupos de interés.\\n\\n3. **Indicadores de Desempeño**: Autorizar la completa contextualización sobre todos los indicadores utilizados.\\n\\n4. **Estrategias y Metas**: Aclarar y establecer metas específicas a corto y largo plazo en relación con los temas materiales.\\n\\n5. **Mecanismos de Gobernanza**: Detallar cómo se supervisan los impactos ESG y la elaboración de políticas de mitigación.\\n\\n6. **Acciones Llevadas a Cabo**: Conectar más explícitamente las acciones emprendidas con los temas materiales.\\n\\n7. **Verificación Externa**: Incluir más detalles sobre el proceso de verificación externa y su frecuencia.\\n\\nEl informe ESG de Pampa Energía es un paso importante hacia una mayor transparencia y responsabilidad social, pero se pueden hacer mejoras significativas para alinear plenamente las prácticas de la empresa con las regulaciones y expectativas ESG.\"",
   "company": "Pampa Energia",
   "year": 2023,
-  "industry": "Energy",
+  "industry": "Energía",
   "publish_date": "2025-03-30",
   "ticker": "PAMP",
   "file_name": "Pampa-2022-Reporte-Sustentabilidad",
