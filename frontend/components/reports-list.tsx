@@ -106,17 +106,17 @@ export function ReportsList() {
     
     switch (sortOption) {
       case "date-desc":
-        return sorted.sort((a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime())
+        return sorted.sort((a, b) => b.year - a.year)
       case "date-asc":
-        return sorted.sort((a, b) => new Date(a.publishDate).getTime() - new Date(b.publishDate).getTime())
+        return sorted.sort((a, b) => a.year - b.year)
       case "company-asc":
         return sorted.sort((a, b) => a.company.localeCompare(b.company))
       case "company-desc":
         return sorted.sort((a, b) => b.company.localeCompare(a.company))
       case "score-desc":
-        return sorted.sort((a, b) => b.esgScore - a.esgScore)
+        return sorted.sort((a, b) => b.SCORES.overall_score - a.SCORES.overall_score)
       case "score-asc":
-        return sorted.sort((a, b) => a.esgScore - b.esgScore)
+        return sorted.sort((a, b) => a.SCORES.overall_score - b.SCORES.overall_score)
       default:
         return sorted
     }

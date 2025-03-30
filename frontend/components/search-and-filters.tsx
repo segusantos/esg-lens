@@ -25,7 +25,7 @@ export function SearchAndFilters({ onFilterChange }: SearchAndFiltersProps) {
   const [selectedYear, setSelectedYear] = useState<number | null>(null)
   const [minScore, setMinScore] = useState<number | null>(null)
   const [maxScore, setMaxScore] = useState<number | null>(null)
-  const [sortBy, setSortBy] = useState("year-desc")
+  const [sortBy, setSortBy] = useState("date-desc")
 
   const years = ["Todos los años", "2023", "2022", "2021", "2020", "2019"]
 
@@ -61,7 +61,7 @@ export function SearchAndFilters({ onFilterChange }: SearchAndFiltersProps) {
     setSelectedYear(null);
     setMinScore(null);
     setMaxScore(null);
-    setSortBy("year-desc");
+    setSortBy("date-desc");
     onFilterChange({});
   };
 
@@ -95,8 +95,8 @@ export function SearchAndFilters({ onFilterChange }: SearchAndFiltersProps) {
             <SelectValue placeholder="Ordenar por" />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="year-desc">Más recientes</SelectItem>
-            <SelectItem value="year-asc">Más antiguos</SelectItem>
+            <SelectItem value="date-desc">Más recientes</SelectItem>
+            <SelectItem value="date-asc">Más antiguos</SelectItem>
             <SelectItem value="company-asc">Empresa (A-Z)</SelectItem>
             <SelectItem value="company-desc">Empresa (Z-A)</SelectItem>
             <SelectItem value="score-desc">Mayor puntuación</SelectItem>
