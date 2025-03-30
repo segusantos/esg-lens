@@ -1,0 +1,239 @@
+{
+  "SUMMARY": {
+    "resultados": [
+      {
+        "valor": "Total Pasivo de la Sociedad: $95.8 millones",
+        "categoria": "Gobernanza",
+        "descripcion": "Total del pasivo al cierre del ejercicio, aumentado respecto al año anterior.",
+        "keywords": [
+          "pasivo total",
+          "gobernanza",
+          "información financiera"
+        ]
+      },
+      {
+        "valor": "Participación sobre el tránsito: 76.1%",
+        "categoria": "Social",
+        "descripcion": "Porcentaje del tránsito que utiliza la modalidad de cobro en autopistas.",
+        "keywords": [
+          "tránsito",
+          "modalidad de cobro",
+          "dinámica de tráfico"
+        ]
+      },
+      {
+        "valor": "Emisiones de CO2 reducidas: 7,588 toneladas",
+        "categoria": "Medioambiente",
+        "descripcion": "Reducción de emisiones gracias al uso de energía renovable.",
+        "keywords": [
+          "reducción CO2",
+          "energía renovable",
+          "sostenibilidad"
+        ]
+      },
+      {
+        "valor": "Consumo de energía eléctrica de fuentes renovables: 100%",
+        "categoria": "Medioambiente",
+        "descripcion": "La compañía utiliza 100% de energía renovable para sus operaciones.",
+        "keywords": [
+          "energía renovable",
+          "sostenibilidad",
+          "eficiencia energética"
+        ]
+      },
+      {
+        "valor": "Ingresos por peaje: $36.7 millones",
+        "categoria": "Gobernanza",
+        "descripcion": "Ingresos generados por el cobro de peajes, antes de impuestos.",
+        "keywords": [
+          "ingresos por peaje",
+          "finanzas",
+          "gobernanza"
+        ]
+      },
+      {
+        "valor": "Tránsito pagante incrementado en: 6.1%",
+        "categoria": "Social",
+        "descripcion": "Incremento del tráfico pagante en comparación con el año anterior.",
+        "keywords": [
+          "tránsito",
+          "crecimiento",
+          "indicadores sociales"
+        ]
+      },
+      {
+        "valor": "Campañas de Seguridad Vial en operación: múltiples iniciativas",
+        "categoria": "Social",
+        "descripcion": "Varias campañas en curso para mejorar la seguridad vial y educación de conductores.",
+        "keywords": [
+          "seguridad vial",
+          "educación",
+          "comunidad"
+        ]
+      },
+      {
+        "valor": "Pasivo neto por impuesto diferido: Aumento de $30.2 millones",
+        "categoria": "Gobernanza",
+        "descripcion": "Aumento debido a la variación del tipo de cambio y la concesión.",
+        "keywords": [
+          "pasivo neto",
+          "impuestos",
+          "financieras"
+        ]
+      },
+      {
+        "valor": "Porcentaje de ingresos por alquiler: $5.3 millones",
+        "categoria": "Gobernanza",
+        "descripcion": "Ingresos generados por alquileres de áreas de servicios.",
+        "keywords": [
+          "ingresos alquiler",
+          "finanzas",
+          "información económica"
+        ]
+      }
+    ]
+  },
+  "SCORES": {
+    "company_pdf": "AuSol_Memoria_y_Estados_Financieros_2023.pdf",
+    "company_name": "Autopistas del Sol",
+    "global_enviroment_score": 30,
+    "enviroment_scores": {
+      "Emissions": 25,
+      "Resource Use": 35,
+      "Innovation": 30
+    },
+    "global_social_score": 40,
+    "social_scores": {
+      "Human Rights": 45,
+      "Product Responsibility": 35,
+      "Workforce": 50,
+      "Community": 30
+    },
+    "global_governance_score": 50,
+    "governance_scores": {
+      "Management": 55,
+      "Shareholders": 40,
+      "CSR Strategy": 55
+    },
+    "overall_score": 40
+  },
+  "LAWSCORES": [
+    {
+      "Law": "Law 26473 Prohibiting commercialisation of incandescent light bulbs",
+      "Score": 0.3879871368408203
+    },
+    {
+      "Law": "Law 26.093 (2006) Regimen of Regulation and Promotion of the Production and Sustainable Use of Biofuels",
+      "Score": 0.495442658662796
+    },
+    {
+      "Law": "Law 26.123 (2006) Promotion of Hydrogen Energy",
+      "Score": 0.3667410612106323
+    },
+    {
+      "Law": "Law 25.019 Declaring a national interest to generate electricity from wind and solar energy",
+      "Score": 0.2983451187610626
+    },
+    {
+      "Law": "Tax Reform Act nr. 27.430",
+      "Score": 0.442714512348175
+    },
+    {
+      "Law": "Law 27.424 instituting the regime to promote the distributed generation of renewable energy integrated into the public electricity network",
+      "Score": 0.4079049229621887
+    },
+    {
+      "Law": "Law no 22520 on the responsibilities of ministries",
+      "Score": 0.3852661848068237
+    },
+    {
+      "Law": "Yolanda's law (no 27592)",
+      "Score": 0.4786193072795868
+    },
+    {
+      "Law": "Law no 27.640 setting the regulatory framework for biofuels",
+      "Score": 0.355688065290451
+    },
+    {
+      "Law": "Law 26.190 Regime for the National Promotion for the Production and Use of Renewable Sources of Electric Energy",
+      "Score": 0.347465455532074
+    },
+    {
+      "Law": "Law 27191 on Renewable Energy",
+      "Score": 0.3605950176715851
+    },
+    {
+      "Law": "Law 26.639 on Minimum Standards for Preservation of Glaciers and Periglacial Environment",
+      "Score": 0.3344474136829376
+    },
+    {
+      "Law": "Law no 27424 creating the Promotion Regime for Distributed Generation of Renewable Energy Integrated in the Public Electricity Grid",
+      "Score": 0.3551397919654846
+    },
+    {
+      "Law": "Law 25.080 for investments in cultivated forests",
+      "Score": 0.4894050359725952
+    },
+    {
+      "Law": "Law No. 27.287 - National System for Integral Risk Management and Civil Protection",
+      "Score": 0.3941962420940399
+    },
+    {
+      "Law": "Law No. 26,509 creating the National System for the Prevention and Mitigation of Agricultural Emergencies and Disasters",
+      "Score": 0.4302586317062378
+    },
+    {
+      "Law": "Law No. 12,307 creating the Bicameral Commission for the attention and monitoring of natural disasters",
+      "Score": 0.4151598215103149
+    },
+    {
+      "Law": "Law 27520 on Minimum Budgets for Adaptation and Mitigation to Global Climate Change",
+      "Score": 0.3732704520225525
+    },
+    {
+      "Law": "Law No. 27209 (tax exemptions on liquid fuels and natural gas)",
+      "Score": 0.471163809299469
+    },
+    {
+      "Law": "Law 27.592 or Yolanda's Law",
+      "Score": 0.3841943442821502
+    },
+    {
+      "Law": "Resolution 267/2019 National plan for the restoration of native forests",
+      "Score": 0.3997319340705871
+    },
+    {
+      "Law": "Resolution 520/2018 on Regulation of solar thermal heaters",
+      "Score": 0.3312699198722839
+    },
+    {
+      "Law": "Law 27,605 on the solidary and extraordinary contribution to help mitigate the effects of the pandemic, including gas sector development subsidies",
+      "Score": 0.362746924161911
+    },
+    {
+      "Law": "Law 27,520 on Minimum Budget for adaptation and mitigation of climate change",
+      "Score": 0.326520562171936
+    },
+    {
+      "Law": "Law 27,487 on Extension and amendment of Law Nr 25,080 related to the investments for cultivated forests",
+      "Score": 0.4373860657215118
+    },
+    {
+      "Law": "Law 26,562 on Minimum Environmental Protection Budgets to Control Burning Activities",
+      "Score": 0.3468157052993774
+    },
+    {
+      "Law": "Law 26,566 on Nuclear Activity",
+      "Score": 0.3849743604660034
+    }
+  ],
+  "FEEDBACK": "A continuación, se presenta un análisis del reporte ESG proporcionado, centrado en las secciones recomendadas por la Guía de la CNV para la divulgación de información ambiental, social y de gobierno (ASG).### Identificación de la audiencia**Estado:** Incompleto  **Observaciones:** El documento menciona la consideración de grupos de interés como inversores y proveedores, pero no detalla si se han considerado otros actores relevantes como trabajadores, consumidores y la sociedad civil. Sería útil incluir un análisis más profundo sobre la identificación y comprensión de todos los grupos de interés relevantes.### Materialidad**Estado:** Incompleto  **Observaciones:** Aunque se mencionan temas materiales relacionados con ESG, el enfoque de doble materialidad no fue claramente articulado. Es esencial que se aborden tanto los impactos financieros como los efectos sobre el bienestar social y ambiental.### Indicadores de desempeño**Estado:** Incompleto  **Observaciones:** El reporte hace referencia al uso de algunos indicadores, pero no se proporciona suficiente contexto sobre la metodología para su selección, ni se menciona si se están utilizando indicadores reconocidos internacionalmente como GRI o SASB. ### Estrategias y metas**Estado:** Incompleto  **Observaciones:** Las estrategias están mencionadas, pero faltan metas específicas a corto, mediano y largo plazo que sean claras y medibles en relación con los temas materiales identificados.### Mecanismos de gobernanza**Estado:** Completo  **Observaciones:** Se describen mecanismos de gobernanza en general, incluyendo la existencia de un Comité de Auditoría y procesos internos, aunque se podría enriquecer con más detalles sobre las iniciativas y compromisos específicos a los que la empresa está adherida.### Acciones llevadas a cabo**Estado:** Incompleto  **Observaciones:** Se mencionan algunas acciones específicas, pero falta una narrativa más robusta sobre todas las acciones emprendidas en el período de reporte relacionadas con los temas materiales identificados.### Verificación externa**Estado:** Incompleto  **Observaciones:** No se menciona si el reporte ha sido sometido a procesos de verificación externa según sea necesario. La verificación por parte de terceros es crucial para asegurar la credibilidad de la información reportada.### Conclusión:El reporte presenta un enfoque inicial en el ámbito ASG, pero carece de profundidad en varias secciones, lo que puede limitar la efectividad de su divulgación y la confianza de los stakeholders. Se recomienda abordar las deficiencias identificadas para resultar en un informe más exhaustivo y alineado con las mejores prácticas en divulgación de información ESG.",
+  "CONCLUSION": "### Resumen del Informe ESG de Autopistas del Sol**Hallazgos Clave:**- **Total Pasivo:** $95.8 millones, lo que indica un aumento respecto al año anterior.- **Emisiones de CO2:** Se redujeron en 7,588 toneladas debido al uso de energía renovable.- **Transito Pagante:** Incremento del 6.1% en el tráfico pagante en comparación con el año anterior.- **Energía Renovable:** Utilización del 100% de fuentes de energía renovables.- **Ingresos Generados:** $36.7 millones por cobro de peajes, mostrado un crecimiento positivo.**Evaluación de Cumplimiento:**El informe aborda varios componentes ESG, pero carece de profundidad en áreas clave, especialmente en la identificación de grupos de interés y el enfoque de doble materialidad. Los mecanismos de gobernanza están bien descritos, aunque se sugiere proporcionar mayor transparencia sobre las iniciativas específicas de sostenibilidad y compromiso.**Interpretación de los Puntajes ESG:**- **Global Environmental Score:** 30 (Emisiones: 25, Uso de Recursos: 35, Innovación: 30)- **Global Social Score:** 40 (Derechos Humanos: 45, Responsabilidad del Producto: 35, Fuerza Laboral: 50, Comunidad: 30)- **Global Governance Score:** 50 (Gestión: 55, Accionistas: 40, Estrategia RSE: 55)- **Puntaje General:** 40, reflejando un desempeño moderado con oportunidades de mejora.**Perspectivas de Similitud de Texto:**El análisis de similitud mostró que las secciones del informe tienen una adherencia parcial a las leyes argentinas relacionadas con ESG. Las áreas con mayor alineación incluyen la gestión de recursos y el compromiso social, mientras que se observaron desviaciones en la identificación de grupos de interés y en el enfoque de materialidad.**Mejoras Potenciales:**1. **Identificación de Grupos de Interés:** Incluir un análisis más exhaustivo de todos los actores relevantes como trabajadores y consumidores.2. **Enfoque de Doble Materialidad:** Articular claramente cómo los impactos financieros y sociales se interrelacionan.3. **Metas Claras:** Establecer objetivos específicos a corto, mediano y largo plazo para estrategias ESG.4. **Verificación Externa:** Implementar procesos de verificación externa para aumentar la credibilidad del informe.5. **Narrativa Más Robusta:** Aumentar la profundidad de las acciones llevadas a cabo en el período de reporte.**Conclusión:**El informe de Autopistas del Sol presenta una base en la divulgación de información ESG, pero requerirá mejoras significativas para alinearse plenamente con las mejores prácticas y aumentar la confianza de los stakeholders.",
+  "company": "Autopistas del Sol",
+  "year": 2021,
+  "industry": "Other",
+  "publish_date": "2025-03-30",
+  "ticker": "AUSO",
+  "file_name": "AuSol_Memoria_y_Estados_Financieros_2023",
+  "id": "c726a62c-9435-45b5-9458-97f1f5138464"
+}

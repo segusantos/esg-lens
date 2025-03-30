@@ -2,19 +2,17 @@ from typing import Dict, List, Optional, Tuple
 import uuid
 import json
 import os
-from datetime import datetime
 from pathlib import Path
 
-from app.models import ESGReport, ESGReportCreate
 
 # Path to store report JSON files
-DATA_DIR = Path(__file__).parent.parent / "data" / "reports"
+DATA_DIR = Path(__file__).parent.parent / "process_reports" / "data" / "processed_reports"
 
 # Create the data directory if it doesn't exist
 os.makedirs(DATA_DIR, exist_ok=True)
 
 # In-memory database for reports
-reports_db: Dict[str, ESGReport] = {}
+reports_db: dict[str, dict] = {}
 
 # Sample data from frontend
 
@@ -35,19 +33,19 @@ def load_reports_from_files():
                 
                 # Only load if not already in memory
                 if report_id and report_id not in reports_db:
-                    report = ESGReport(**report_data)
+                    report = dict(**report_data)
                     reports_db[report_id] = report
         except (json.JSONDecodeError, KeyError) as e:
             print(f"Error loading report from {file_path}: {e}")
 
 
-def save_report_to_file(report: ESGReport):
+def save_report_to_file(report: dict):
     """Save a report to a JSON file."""
-    file_path = DATA_DIR / f"{report.id}.json"
-    
+
+    file_path = DATA_DIR / f"{report['file_name']}.json"
     with open(file_path, "w", encoding="utf-8") as f:
         # Convert the model to a dictionary and save as JSON
-        json.dump(report.dict(), f, ensure_ascii=False, indent=2)
+        json.dump(report, f, ensure_ascii=False, indent=2)
 
 
 def get_reports():
@@ -60,13 +58,13 @@ def get_report(report_id: str):
     return reports_db.get(report_id)
 
 
-def create_report(report: ESGReportCreate):
+def create_report(report: dict):
     """Create a new report."""
     # Generate a unique ID
     report_id = str(uuid.uuid4())
     
     # Create a new report with the generated ID
-    db_report = ESGReport(id=report_id, **report.dict())
+    db_report = dict(id=report_id, **report.dict())
     
     # Store in memory
     reports_db[report_id] = db_report
@@ -77,7 +75,7 @@ def create_report(report: ESGReportCreate):
     return db_report
 
 
-def update_report(report_id: str, report_data: Dict):
+def update_report(report_id: str, report_data: dict):
     """Update an existing report."""
     if report_id not in reports_db:
         return None
@@ -90,7 +88,7 @@ def update_report(report_id: str, report_data: Dict):
     updated_report_dict.update(report_data)
     
     # Create updated report
-    updated_report = ESGReport(**updated_report_dict)
+    updated_report = dict(**updated_report_dict)
     
     # Save to memory and file
     reports_db[report_id] = updated_report
@@ -114,18 +112,14 @@ def delete_report(report_id: str):
     return False
 
 
-def save_processed_report(report_data: Dict):
+def save_processed_report(report_data: dict):
     """Save a processed report from a PDF analysis."""
     # Generate a report ID if not provided
     report_id = report_data.get("id", str(uuid.uuid4()))
     report_data["id"] = report_id
     
-    # Set creation timestamp if not present
-    if "publish_date" not in report_data:
-        report_data["publish_date"] = datetime.now().strftime("%Y-%m-%d")
-    
     # Create the report
-    report = ESGReport(**report_data)
+    report = dict(**report_data)
     
     # Save to memory and file
     reports_db[report_id] = report

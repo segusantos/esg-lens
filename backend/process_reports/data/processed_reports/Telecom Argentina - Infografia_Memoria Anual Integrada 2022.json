@@ -1,0 +1,242 @@
+{
+  "SUMMARY": {
+    "resultados": [
+      {
+        "valor": "$120.071 millones",
+        "categoria": "Social",
+        "descripcion": "Aporte social invertido en infraestructura.",
+        "keywords": [
+          "aporte social",
+          "infraestructura",
+          "inversión"
+        ]
+      },
+      {
+        "valor": "30 millones de clientes",
+        "categoria": "Social",
+        "descripcion": "Número total de clientes.",
+        "keywords": [
+          "clientes",
+          "telecomunicaciones"
+        ]
+      },
+      {
+        "valor": "78.000 km",
+        "categoria": "Medioambiente",
+        "descripcion": "Extensión de redes híbridas y complementarias.",
+        "keywords": [
+          "redes",
+          "infraestructura"
+        ]
+      },
+      {
+        "valor": "21% de mujeres en puestos de liderazgo",
+        "categoria": "Social",
+        "descripcion": "Porcentaje de mujeres en liderazgo.",
+        "keywords": [
+          "género",
+          "liderazgo",
+          "diversidad"
+        ]
+      },
+      {
+        "valor": "$95 millones",
+        "categoria": "Gobernanza",
+        "descripcion": "Inversión en sustentabilidad.",
+        "keywords": [
+          "inversión",
+          "sustentabilidad"
+        ]
+      },
+      {
+        "valor": "3% de reducción del consumo energético",
+        "categoria": "Medioambiente",
+        "descripcion": "Reducción de la intensidad energética respecto al año anterior.",
+        "keywords": [
+          "energía",
+          "reducción",
+          "sustentabilidad"
+        ]
+      },
+      {
+        "valor": "97% de población urbana con cobertura 4G/LTE",
+        "categoria": "Social",
+        "descripcion": "Porcentaje de población con acceso a servicios de telecomunicaciones.",
+        "keywords": [
+          "cobertura",
+          "telecomunicaciones"
+        ]
+      },
+      {
+        "valor": "14,75 horas promedio de formación por colaborador",
+        "categoria": "Social",
+        "descripcion": "Promedio de horas de formación por empleado.",
+        "keywords": [
+          "formación",
+          "empleados"
+        ]
+      },
+      {
+        "valor": "90% de proveedores locales",
+        "categoria": "Social",
+        "descripcion": "Porcentaje de proveedores que son locales.",
+        "keywords": [
+          "proveedores",
+          "locales"
+        ]
+      },
+      {
+        "valor": "86% de módems y decodificadores recuperados",
+        "categoria": "Medioambiente",
+        "descripcion": "Porcentaje de equipos recuperados.",
+        "keywords": [
+          "reciclaje",
+          "tecnología"
+        ]
+      }
+    ]
+  },
+  "SCORES": {
+    "company_pdf": "Telecom Argentina - Infografia_Memoria Anual Integrada 2022.pdf",
+    "company_name": "Telecom Argentina SA",
+    "global_enviroment_score": 50,
+    "enviroment_scores": {
+      "Emissions": 33,
+      "Resource Use": 68,
+      "Innovation": 51
+    },
+    "global_social_score": 64,
+    "social_scores": {
+      "Human Rights": 60,
+      "Product Responsibility": 85,
+      "Workforce": 54,
+      "Community": 44
+    },
+    "global_governance_score": 50,
+    "governance_scores": {
+      "Management": 36,
+      "Shareholders": 73,
+      "CSR Strategy": 84
+    },
+    "overall_score": 58
+  },
+  "LAWSCORES": [
+    {
+      "Law": "Law 26473 Prohibiting commercialisation of incandescent light bulbs",
+      "Score": 0.1989142000675201
+    },
+    {
+      "Law": "Law 26.093 (2006) Regimen of Regulation and Promotion of the Production and Sustainable Use of Biofuels",
+      "Score": 0.3407712578773498
+    },
+    {
+      "Law": "Law 26.123 (2006) Promotion of Hydrogen Energy",
+      "Score": 0.2436310797929763
+    },
+    {
+      "Law": "Law 25.019 Declaring a national interest to generate electricity from wind and solar energy",
+      "Score": 0.1207317560911178
+    },
+    {
+      "Law": "Tax Reform Act nr. 27.430",
+      "Score": 0.3610055446624756
+    },
+    {
+      "Law": "Law 27.424 instituting the regime to promote the distributed generation of renewable energy integrated into the public electricity network",
+      "Score": 0.2611942887306213
+    },
+    {
+      "Law": "Law no 22520 on the responsibilities of ministries",
+      "Score": 0.1527502089738845
+    },
+    {
+      "Law": "Yolanda's law (no 27592)",
+      "Score": 0.311911940574646
+    },
+    {
+      "Law": "Law no 27.640 setting the regulatory framework for biofuels",
+      "Score": 0.0781711935997009
+    },
+    {
+      "Law": "Law 26.190 Regime for the National Promotion for the Production and Use of Renewable Sources of Electric Energy",
+      "Score": 0.2048408538103103
+    },
+    {
+      "Law": "Law 27191 on Renewable Energy",
+      "Score": 0.2324678599834442
+    },
+    {
+      "Law": "Law 26.639 on Minimum Standards for Preservation of Glaciers and Periglacial Environment",
+      "Score": 0.1148293539881706
+    },
+    {
+      "Law": "Law no 27424 creating the Promotion Regime for Distributed Generation of Renewable Energy Integrated in the Public Electricity Grid",
+      "Score": 0.2789995670318603
+    },
+    {
+      "Law": "Law 25.080 for investments in cultivated forests",
+      "Score": 0.3512526452541351
+    },
+    {
+      "Law": "Law No. 27.287 - National System for Integral Risk Management and Civil Protection",
+      "Score": 0.2252551317214965
+    },
+    {
+      "Law": "Law No. 26,509 creating the National System for the Prevention and Mitigation of Agricultural Emergencies and Disasters",
+      "Score": 0.2109252214431762
+    },
+    {
+      "Law": "Law No. 12,307 creating the Bicameral Commission for the attention and monitoring of natural disasters",
+      "Score": 0.1646166741847992
+    },
+    {
+      "Law": "Law 27520 on Minimum Budgets for Adaptation and Mitigation to Global Climate Change",
+      "Score": 0.1971453726291656
+    },
+    {
+      "Law": "Law No. 27209 (tax exemptions on liquid fuels and natural gas)",
+      "Score": 0.3409846127033233
+    },
+    {
+      "Law": "Law 27.592 or Yolanda's Law",
+      "Score": 0.1555039882659912
+    },
+    {
+      "Law": "Resolution 267/2019 National plan for the restoration of native forests",
+      "Score": 0.3680527508258819
+    },
+    {
+      "Law": "Resolution 520/2018 on Regulation of solar thermal heaters",
+      "Score": 0.2060255855321884
+    },
+    {
+      "Law": "Law 27,605 on the solidary and extraordinary contribution to help mitigate the effects of the pandemic, including gas sector development subsidies",
+      "Score": 0.0852491557598114
+    },
+    {
+      "Law": "Law 27,520 on Minimum Budget for adaptation and mitigation of climate change",
+      "Score": 0.1335777640342712
+    },
+    {
+      "Law": "Law 27,487 on Extension and amendment of Law Nr 25,080 related to the investments for cultivated forests",
+      "Score": 0.169186919927597
+    },
+    {
+      "Law": "Law 26,562 on Minimum Environmental Protection Budgets to Control Burning Activities",
+      "Score": 0.1307251751422882
+    },
+    {
+      "Law": "Law 26,566 on Nuclear Activity",
+      "Score": 0.2551452219486236
+    }
+  ],
+  "FEEDBACK": "He analizado el reporte ESG proporcionado y aquí están los hallazgos sobre las secciones recomendadas por la Guía de la CNV que faltan o están incompletas:1. **Identificación de la audiencia**: No se menciona claramente si se han considerado todos los grupos de interés relevantes, como inversores, trabajadores, consumidores, y sociedad civil.2. **Materialidad**: Existe una falta de claridad en la identificación de los temas materiales desde ambas perspectivas (financiera e impacto). No se observa la aplicación del enfoque de doble materialidad.3. **Indicadores de desempeño**: No se indican indicadores reconocidos internacionalmente (como GRI, SASB, ISSB, TCFD), ni se explica la metodología para su selección.4. **Estrategias y metas**: Las estrategias para abordar temas materiales ASG no son específicas. Las metas a corto, mediano y largo plazo no están claramente descritas.5. **Mecanismos de gobernanza**: Los mecanismos de gobernanza y los compromisos de la empresa no se detallan adecuadamente.6. **Acciones llevadas a cabo**: Las acciones emprendidas en el período del reporte en relación con los temas materiales identificados no se describen de manera suficiente.7. **Verificación externa**: No se menciona si el reporte ha sido sometido a procesos de verificación externa.En conclusión, el reporte necesita mejorar en varios aspectos clave para cumplir con las pautas de divulgación ASG recomendadas por la CNV.",
+  "CONCLUSION": "### Resumen del Informe ESG de Telecom Argentina#### Hallazgos Clave- **Inversión Social**: Telecom Argentina ha realizado un aporte social de **$120.071 millones** en infraestructura.- **Cobertura de Clientes**: La empresa cuenta con **30 millones de clientes**, brindando servicios de telecomunicaciones.- **Diversidad de Género**: El **21%** de los puestos de liderazgo están ocupados por mujeres.- **Sostenibilidad**: **$95 millones** han sido invertidos en iniciativas de sustentabilidad, logrando un **3% de reducción** en el consumo energético.#### Evaluación de CumplimientoEl informe presenta deficiencias significativas en relación a las pautas de divulgación ASG recomendadas por la CNV:1. **Identificación de la Audiencia**: Falta de claridad sobre los grupos de interés considerados.2. **Materialidad**: Insuficiente identificación de temas materiales desde perspectivas financiera e impacto.3. **Indicadores de Desempeño**: No se utilizan indicadores reconocidos ni se explica su metodología.4. **Estrategias y Metas**: Las estrategias son poco específicas y carecen de metas claras.5. **Mecanismos de Gobernanza**: No se detallan adecuadamente.6. **Acciones Llevaudas**: Descripción insuficiente de acciones en relación con los temas materiales.7. **Verificación Externa**: No se menciona si el informe ha sido verificado externamente.#### Interpretación de los Puntajes ESG- **Puntaje Ambiente**: **50** (Emisiones: 33, Uso de Recursos: 68, Innovación: 51)- **Puntaje Social**: **64** (Derechos Humanos: 60, Responsabilidad del Producto: 85, Fuerza Laboral: 54, Comunidad: 44)- **Puntaje Gobernanza**: **50** (Gestión: 36, Accionistas: 73, Estrategia de RSE: 84)- **Puntaje General**: **58**.#### Perspectivas de Similitud de TextoLa comparación con leyes argentinas revela puntajes bajos en la alineación con regulaciones relevantes, con destacadas áreas de cumplimiento en iniciativas de energía renovable y sostenibilidad (Ley 27.424, Ley 26.190, etc.), pero necesita mejorar en temas de gobernanza y responsabilidad social.#### Mejoras Potenciales- Clarificar quiénes son los grupos de interés.- Adoptar un marco de doble materialidad en la identificación de temas.- Incluir indicadores ASG estandarizados y explicar su selección.- Definir acciones y metas específicas con plazos claros.- Detallar los mecanismos de gobernanza.- Considerar una verificación externa para aumentar la credibilidad del informe.Este resumen tiene como fin facilitar la comprensión rápida del desempeño y el cumplimiento ESG de Telecom Argentina, señalando áreas de mejora para fortalecer su responsabilidad social y su alineación con las normativas vigentes.",
+  "company": "Telecom Argentina",
+  "year": 2022,
+  "industry": "Technology",
+  "publish_date": "2025-03-30",
+  "ticker": "TECO2",
+  "file_name": "Telecom Argentina - Infografia_Memoria Anual Integrada 2022",
+  "id": "0fc8a57f-45e8-4843-bde3-61b09eda8645"
+}

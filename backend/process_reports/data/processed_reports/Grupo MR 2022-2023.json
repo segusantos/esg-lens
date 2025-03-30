@@ -1,0 +1,249 @@
+{
+  "SUMMARY": {
+    "resultados": [
+      {
+        "valor": "306.3 tCO2e",
+        "categoria": "Medioambiente",
+        "descripcion": "Huella total del ejercicio, con un aumento del 2400% en comparación con el ejercicio anterior.",
+        "keywords": [
+          "huella de carbono",
+          "emisiones",
+          "sostenibilidad"
+        ]
+      },
+      {
+        "valor": "188.9 tCO2e",
+        "categoria": "Medioambiente",
+        "descripcion": "Emisiones de Alcance 1, mayoritariamente debido al consumo energético y movilidad.",
+        "keywords": [
+          "alcance 1",
+          "consumo energético",
+          "movilidad"
+        ]
+      },
+      {
+        "valor": "37.4 tCO2e",
+        "categoria": "Medioambiente",
+        "descripcion": "Emisiones de Alcance 2, 77.3% menos que el ejercicio anterior.",
+        "keywords": [
+          "alcance 2",
+          "reducción",
+          "emisiones"
+        ]
+      },
+      {
+        "valor": "80 tCO2e",
+        "categoria": "Medioambiente",
+        "descripcion": "Emisiones de Alcance 3, donde se analiza el impacto del consumo de electricidad por parte de los empleados.",
+        "keywords": [
+          "alcance 3",
+          "impacto",
+          "electricidad"
+        ]
+      },
+      {
+        "valor": "149,608 kWh",
+        "categoria": "Medioambiente",
+        "descripcion": "Consumo total de electricidad en oficinas durante el año.",
+        "keywords": [
+          "consumo eléctrico",
+          "oficinas",
+          "sostenibilidad"
+        ]
+      },
+      {
+        "valor": "$4,278,230,864",
+        "categoria": "Social",
+        "descripcion": "Gasto total en proveedores, manteniendo un 98.85% en proveedores locales.",
+        "keywords": [
+          "gasto en proveedores",
+          "impacto socioeconómico",
+          "compras responsables"
+        ]
+      },
+      {
+        "valor": "66.12 kWh/m2",
+        "categoria": "Medioambiente",
+        "descripcion": "Ratio de intensidad energética de Matba Rofex, midiendo el consumo en oficinas.",
+        "keywords": [
+          "intensidad energética",
+          "eficiencia",
+          "sostenibilidad"
+        ]
+      },
+      {
+        "valor": "75 kg",
+        "categoria": "Social",
+        "descripcion": "Cantidad de papel recuperado, destacando la política de reutilización de materiales.",
+        "keywords": [
+          "reciclaje",
+          "responsabilidad social",
+          "sostenibilidad"
+        ]
+      },
+      {
+        "valor": "Iv21-22",
+        "categoria": "Gobernanza",
+        "descripcion": "El informe se ha elaborado conforme a los Estándares Universales 2021 de GRI para el periodo mencionado.",
+        "keywords": [
+          "transparencia",
+          "gobernanza",
+          "ESG"
+        ]
+      },
+      {
+        "valor": "0%",
+        "categoria": "Medioambiente",
+        "descripcion": "Porcentaje de energía renovable en el consumo eléctrico total, indicando áreas de mejora.",
+        "keywords": [
+          "energía renovable",
+          "sostenibilidad",
+          "análisis energético"
+        ]
+      }
+    ]
+  },
+  "SCORES": {
+    "company_pdf": "Grupo MR 2022-2023.pdf",
+    "company_name": "Grupo MR",
+    "global_enviroment_score": 36,
+    "enviroment_scores": {
+      "Emissions": 32,
+      "Resource Use": 41,
+      "Innovation": 36
+    },
+    "global_social_score": 54,
+    "social_scores": {
+      "Human Rights": 59,
+      "Product Responsibility": 50,
+      "Workforce": 54,
+      "Community": 54
+    },
+    "global_governance_score": 59,
+    "governance_scores": {
+      "Management": 63,
+      "Shareholders": 54,
+      "CSR Strategy": 59
+    },
+    "overall_score": 45
+  },
+  "LAWSCORES": [
+    {
+      "Law": "Law 26473 Prohibiting commercialisation of incandescent light bulbs",
+      "Score": 0.4201456904411316
+    },
+    {
+      "Law": "Law 26.093 (2006) Regimen of Regulation and Promotion of the Production and Sustainable Use of Biofuels",
+      "Score": 0.4721097350120544
+    },
+    {
+      "Law": "Law 26.123 (2006) Promotion of Hydrogen Energy",
+      "Score": 0.336214542388916
+    },
+    {
+      "Law": "Law 25.019 Declaring a national interest to generate electricity from wind and solar energy",
+      "Score": 0.2586451768875122
+    },
+    {
+      "Law": "Tax Reform Act nr. 27.430",
+      "Score": 0.4636983871459961
+    },
+    {
+      "Law": "Law 27.424 instituting the regime to promote the distributed generation of renewable energy integrated into the public electricity network",
+      "Score": 0.3212845921516418
+    },
+    {
+      "Law": "Law no 22520 on the responsibilities of ministries",
+      "Score": 0.3613979816436767
+    },
+    {
+      "Law": "Yolanda's law (no 27592)",
+      "Score": 0.4706910252571106
+    },
+    {
+      "Law": "Law no 27.640 setting the regulatory framework for biofuels",
+      "Score": 0.3420788049697876
+    },
+    {
+      "Law": "Law 26.190 Regime for the National Promotion for the Production and Use of Renewable Sources of Electric Energy",
+      "Score": 0.3892912268638611
+    },
+    {
+      "Law": "Law 27191 on Renewable Energy",
+      "Score": 0.3692987263202667
+    },
+    {
+      "Law": "Law 26.639 on Minimum Standards for Preservation of Glaciers and Periglacial Environment",
+      "Score": 0.347479373216629
+    },
+    {
+      "Law": "Law no 27424 creating the Promotion Regime for Distributed Generation of Renewable Energy Integrated in the Public Electricity Grid",
+      "Score": 0.3530185520648956
+    },
+    {
+      "Law": "Law 25.080 for investments in cultivated forests",
+      "Score": 0.5002202987670898
+    },
+    {
+      "Law": "Law No. 27.287 - National System for Integral Risk Management and Civil Protection",
+      "Score": 0.3416125178337097
+    },
+    {
+      "Law": "Law No. 26,509 creating the National System for the Prevention and Mitigation of Agricultural Emergencies and Disasters",
+      "Score": 0.3564991056919098
+    },
+    {
+      "Law": "Law No. 12,307 creating the Bicameral Commission for the attention and monitoring of natural disasters",
+      "Score": 0.3642591536045074
+    },
+    {
+      "Law": "Law 27520 on Minimum Budgets for Adaptation and Mitigation to Global Climate Change",
+      "Score": 0.4543175995349884
+    },
+    {
+      "Law": "Law No. 27209 (tax exemptions on liquid fuels and natural gas)",
+      "Score": 0.4801989793777466
+    },
+    {
+      "Law": "Law 27.592 or Yolanda's Law",
+      "Score": 0.4526005387306213
+    },
+    {
+      "Law": "Resolution 267/2019 National plan for the restoration of native forests",
+      "Score": 0.4574463963508606
+    },
+    {
+      "Law": "Resolution 520/2018 on Regulation of solar thermal heaters",
+      "Score": 0.3558147847652435
+    },
+    {
+      "Law": "Law 27,605 on the solidary and extraordinary contribution to help mitigate the effects of the pandemic, including gas sector development subsidies",
+      "Score": 0.2855221629142761
+    },
+    {
+      "Law": "Law 27,520 on Minimum Budget for adaptation and mitigation of climate change",
+      "Score": 0.3675779998302459
+    },
+    {
+      "Law": "Law 27,487 on Extension and amendment of Law Nr 25,080 related to the investments for cultivated forests",
+      "Score": 0.3796339929103851
+    },
+    {
+      "Law": "Law 26,562 on Minimum Environmental Protection Budgets to Control Burning Activities",
+      "Score": 0.3203247785568237
+    },
+    {
+      "Law": "Law 26,566 on Nuclear Activity",
+      "Score": 0.3279124796390533
+    }
+  ],
+  "FEEDBACK": "He revisado el reporte ESG del Grupo Matba Rofex y a continuación se detallan las secciones recomendadas por la Guía de la CNV que faltan o están incompletas:1. **Identificación de la audiencia**:   - El reporte menciona algunos grupos de interés, pero no se aborda de manera exhaustiva la consideración de todos los grupos relevantes como inversores, trabajadores y sociedad civil, lo cual es crucial para la evaluación.2. **Materialidad**:   - Aunque se refieren a la identificación de temas materiales, el reporte no refleja claramente la aplicación del enfoque de doble materialidad, que incluye tanto la perspectiva financiera como la de impacto social y ambiental. Esto limita la profundidad de la evaluación de temas críticos.3. **Indicadores de desempeño**:   - Se utilizan algunos indicadores reconocidos, pero no todos están alineados con marcos internacionales para cada tema material relevante. Además, falta una explicación clara sobre el contexto y la metodología utilizada para la selección de los mismos.4. **Estrategias y metas**:   - Si bien se presentan algunas estrategias, el reporte carece de metas específicas y medibles a corto, mediano y largo plazo para abordar los temas materiales identificados. Esto resulta en una falta de claridad sobre cómo se prevé medir el éxito.5. **Mecanismos de gobernanza**:   - Aunque el reporte menciona algunos comités de gobernanza, no se detallan completamente los mecanismos de operación y las iniciativas en las que participa la empresa. Esto impide una comprensión plena de cómo se integran los criterios ESG en la gobernanza corporativa.6. **Acciones llevadas a cabo**:   - Aunque se mencionan algunas iniciativas, no se proporciona una descripción detallada de todas las acciones emprendidas en el período en relación con los temas materiales identificados, lo cual es esencial para una evaluación justa del desempeño ESG.7. **Verificación externa**:   - El reporte no cuenta con verificación externa, lo cual es recomendable para aumentar la credibilidad y la confianza en la información presentada.Para mejorar la transpariencia y cumplir con los requisitos de divulgación ASG, el Grupo Matba Rofex debería abordar estas áreas identificadas en su próximo reporte.",
+  "CONCLUSION": "### Resumen del Informe ESG - Grupo Matba Rofex#### Hallazgos ClaveEl informe ESG del Grupo Matba Rofex presenta una huella de carbono total de **306.3 tCO2e**, con un notable incremento del **2400%** en comparación con el ejercicio anterior. Las emisiones de Alcance 1 son las más significativas, principalmente por el consumo energético, mientras que las de Alcance 2 han disminuido un **77.3%**. El gasto en proveedores ascende a **$4,278,230,864**, con un enfoque en la compra responsable al mantener un **98.85%** de proveedores locales.#### Evaluación de CumplimientoEl informe presenta deficiencias en varias secciones recomendadas por la Comisión Nacional de Valores (CNV) de Argentina, incluyendo:1. **Identificación de la audiencia**: Falta un análisis exhaustivo de todos los grupos de interés relevantes.2. **Materialidad**: No se refleja claramente el enfoque de doble materialidad.3. **Indicadores de desempeño**: Ausencia de alineación con marcos internacionales en algunos indicadores.4. **Estrategias y metas**: Carece de objetivos específicos para abordar temas materiales.5. **Mecanismos de gobernanza**: Describen parcialmente los comités de gobernanza.6. **Acciones llevadas a cabo**: No se detallan todas las iniciativas relevantes.7. **Verificación externa**: El informe carece de verificación, lo que afecta su credibilidad.#### Interpretación de los Puntajes ESG- **Puntaje Ambiental**: 36  - Emisiones: 32  - Uso de recursos: 41  - Innovación: 36- **Puntaje Social**: 54  - Derechos humanos: 59  - Responsabilidad del producto: 50  - Fuerza laboral: 54  - Comunidad: 54- **Puntaje de Gobernanza**: 59  - Gestión: 63  - Accionistas: 54  - Estrategia de RSE: 59- **Puntaje global**: 45Estos puntajes reflejan áreas de mejora, especialmente en la gestión ambiental.#### Perspectivas de Similitud de TextoEl análisis de similitud indica que el informe cumple parcialmente con **31 de 27 regulaciones ESG** argentinas, con puntajes que oscilan en un rango de **25% a 60%**. Es fundamental mejorar la alineación con las leyes específicas que afectan la gobernanza y el impacto ambiental.#### Mejoras PotencialesPara mejorar la transparencia y el cumplimiento de las pautas ESG, el Grupo Matba Rofex debería considerar:1. **Ampliar la identificación de la audiencia**.2. **Implementar un enfoque de doble materialidad en su evaluación**.3. **Alinear los indicadores de desempeño con marcos internacionales**.4. **Establecer metas claras y medibles** en relación con los temas materiales.5. **Detallar los mecanismos de gobernanza claramente en el reporte**.6. **Incluir descripciones exhaustivas de acciones llevadas a cabo**.7. **Obtener verificación externa para aumentar la credibilidad** del informe.### ConclusiónEl Grupo Matba Rofex ha presentado un informe ESG que destaca ciertos esfuerzos sociales y de gobernanza, pero que requiere una revisión significativa en varias áreas críticas para alcanzar los estándares regulatorios y mejorar su desempeño en sostenibilidad.",
+  "company": "A3 Mercados",
+  "year": 2023,
+  "industry": "Finance",
+  "publish_date": "2025-03-30",
+  "ticker": "A3",
+  "file_name": "Grupo MR 2022-2023",
+  "id": "c49e6a5e-0bb0-4bfe-b712-76fa19470af2"
+}

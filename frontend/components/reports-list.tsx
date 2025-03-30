@@ -174,10 +174,11 @@ export function ReportsList() {
       ) : viewMode === "cards" ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {reportsToDisplay.map((report) => {
-            const esgGrade = getLetterGrade(report.esgScore)
-            const envGrade = getLetterGrade(report.environmentScore)
-            const socialGrade = getLetterGrade(report.socialScore)
-            const govGrade = getLetterGrade(report.governanceScore)
+            console.log("Report:", report)
+            const esgGrade = getLetterGrade(report.SCORES.overall_score)
+            const envGrade = getLetterGrade(report.SCORES.global_enviroment_score)
+            const socialGrade = getLetterGrade(report.SCORES.global_social_score)
+            const govGrade = getLetterGrade(report.SCORES.global_governance_score)
 
             return (
               <Card key={report.id}>
@@ -203,21 +204,21 @@ export function ReportsList() {
                         <span className="text-esg-environmental-dark font-medium">Ambiental</span>
                         <span className={`font-medium ${getGradeColor(envGrade)}`}>{envGrade}</span>
                       </div>
-                      <ESGProgress value={report.environmentScore} type="environmental" />
+                      <ESGProgress value={report.SCORES.global_enviroment_score} type="environmental" />
                     </div>
                     <div>
                       <div className="flex justify-between text-sm mb-1">
                         <span className="text-esg-social-dark font-medium">Social</span>
                         <span className={`font-medium ${getGradeColor(socialGrade)}`}>{socialGrade}</span>
                       </div>
-                      <ESGProgress value={report.socialScore} type="social" />
+                      <ESGProgress value={report.SCORES.global_social_score} type="social" />
                     </div>
                     <div>
                       <div className="flex justify-between text-sm mb-1">
                         <span className="text-esg-governance-dark font-medium">Gobernanza</span>
                         <span className={`font-medium ${getGradeColor(govGrade)}`}>{govGrade}</span>
                       </div>
-                      <ESGProgress value={report.governanceScore} type="governance" />
+                      <ESGProgress value={report.SCORES.global_governance_score} type="governance" />
                     </div>
                   </div>
                 </CardContent>
@@ -251,7 +252,7 @@ export function ReportsList() {
                     <ArrowUpDown className="ml-2 h-4 w-4" />
                   </div>
                 </TableHead>
-                <TableHead>Calidad del Informe</TableHead>
+                <TableHead>Calidad</TableHead>
                 <TableHead>Fecha de Publicación</TableHead>
                 <TableHead></TableHead>
               </TableRow>
@@ -271,7 +272,7 @@ export function ReportsList() {
                     <TableCell>
                       <Badge className={getGradeBackgroundColor(esgGrade)}>{esgGrade}</Badge>
                     </TableCell>
-                    <TableCell>{report.reportQuality}</TableCell>
+                    <TableCell>{report.reportQuality || "Media"}</TableCell>
                     <TableCell>{report.publishDate}</TableCell>
                     <TableCell>
                       <div className="flex gap-2">

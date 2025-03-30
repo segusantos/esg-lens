@@ -1,0 +1,104 @@
+{
+    "resultados": [
+        {
+            "valor": "690,820 m³",
+            "categoria": "Medioambiente",
+            "descripcion": "Extracción de agua proveniente de zonas de estrés hídrico en 2022, reduciendo un 25.2% con respecto a 2021.",
+            "keywords": [
+                "agua",
+                "estrés hídrico",
+                "medidas ambientales"
+            ]
+        },
+        {
+            "valor": "11,863 tCO2e",
+            "categoria": "Medioambiente",
+            "descripcion": "Emisiones de GEI en la generación de energía, representando el 86.3% del total de emisiones en 2022.",
+            "keywords": [
+                "emisiones",
+                "generación de energía",
+                "GEI"
+            ]
+        },
+        {
+            "valor": "500,000 certificados de emisiones",
+            "categoria": "Medioambiente",
+            "descripcion": "Se estima llegar a emitir anualmente certificados por prácticas sostenibles en parques eólicos.",
+            "keywords": [
+                "certificados",
+                "emisiones",
+                "energía renovable"
+            ]
+        },
+        {
+            "valor": "908 millones de USD",
+            "categoria": "Gobernanza",
+            "descripcion": "EBITDA ajustado consolidado en 2022, reflejando una leve variación positiva del 1.0% respecto al año anterior.",
+            "keywords": [
+                "EBITDA",
+                "gobernanza",
+                "finanzas"
+            ]
+        },
+        {
+            "valor": "2,013 empleados",
+            "categoria": "Social",
+            "descripcion": "Total de empleados propios en 2022, con un 15.3% de mujeres, aumentando 5.3% respecto a 2021.",
+            "keywords": [
+                "empleo",
+                "equidad de género",
+                "recursos humanos"
+            ]
+        },
+        {
+            "valor": "43.6%",
+            "categoria": "Social",
+            "descripcion": "Tasa de accidentes laborales con pérdida de días, disminuyendo un 45.9% respecto a 2021.",
+            "keywords": [
+                "seguridad laboral",
+                "accidentes",
+                "gestión de riesgos"
+            ]
+        },
+        {
+            "valor": "C en cambio climático y B- en seguridad hídrica",
+            "categoria": "Medioambiente",
+            "descripcion": "Calificaciones por Carbon Disclosure Project (CDP) en 2022, mostrando un avance comparativo.",
+            "keywords": [
+                "calificaciones",
+                "CDP",
+                "cambio climático"
+            ]
+        },
+        {
+            "valor": "63.1 mil de boe/día",
+            "categoria": "Medioambiente",
+            "descripcion": "Producción de hidrocarburos en 2022, mostrando un crecimiento del 21.8% con respecto a 2021.",
+            "keywords": [
+                "hidrocarburos",
+                "producción",
+                "crecimiento"
+            ]
+        },
+        {
+            "valor": "3,600 m³",
+            "categoria": "Medioambiente",
+            "descripcion": "Agua reutilizada para riego en 2022, con un aumento del 13.5% respecto a 2021.",
+            "keywords": [
+                "reutilización",
+                "agua",
+                "sostenibilidad"
+            ]
+        },
+        {
+            "valor": "92% de satisfacción",
+            "categoria": "Social",
+            "descripcion": " Porcentaje de satisfacción en encuestas evaluativas de programas de inversión social realizados en 2022.",
+            "keywords": [
+                "satisfacción",
+                "inversión social",
+                "evaluación"
+            ]
+        }
+    ]
+}

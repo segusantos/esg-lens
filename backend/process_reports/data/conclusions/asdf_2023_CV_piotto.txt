@@ -1,0 +1,47 @@
+Aquí tienes un resumen estructurado del informe ESG, basado en los datos proporcionados:
+
+### Resumen del Informe ESG
+
+#### Hallazgos Clave
+1. **Total Pasivo de la Sociedad: $95.8 millones**
+   - El pasivo al cierre del ejercicio ha aumentado respecto al año anterior, lo que refleja una variación en la gestión financiera.
+  
+2. **Participación sobre el Tránsito: 76.1%**
+   - Un significativo porcentaje del tránsito utiliza la modalidad de cobro en autopistas, lo que puede indicar eficiencia en la infraestructura.
+
+3. **Emisiones de CO2 Reducidas: 7,588 toneladas**
+   - Se ha logrado una notable reducción en las emisiones de carbono gracias a la implementación de energía renovable.
+
+4. **Consumo de Energía Eléctrica de Fuentes Renovables: 100%**
+   - La compañía opera completamente con energía renovable, destacando su compromiso con la sostenibilidad.
+
+5. **Ingresos por Peaje: $36.7 millones**
+   - Los ingresos generados por el cobro de peajes antes de impuestos indican una estabilidad financiera.
+
+6. **Tránsito Pagante Incrementado: 6.1%**
+   - Hay un crecimiento en el tráfico pagante en comparación con el año anterior, indicando una mejora en la aceptación de servicios.
+
+7. **Campañas de Seguridad Vial: Múltiples Iniciativas**
+   - La empresa está llevando a cabo diversas campañas para mejorar la seguridad vial y la educación de conductores.
+
+8. **Pasivo Neto por Impuesto Diferido: Aumento de $30.2 millones**
+   - Este aumento se atribuye a variaciones en el tipo de cambio y otros factores financieros.
+
+9. **Porcentaje de Ingresos por Alquiler: $5.3 millones**
+   - Generación de ingresos a través de alquileres de áreas de servicios, lo que diversifica la fuente de ingresos.
+
+#### Evaluación de Cumplimiento
+- El informe muestra un compromiso significativo con las regulaciones ESG argentinas, especialmente en aspectos ambientales y en la inclusión de prácticas de gobernanza. Sin embargo, la claridad y la exhaustividad pueden mejorar.
+
+#### Interpretación de los Puntajes ESG
+- Los puntajes obtenidos de la API reflejan un buen desempeño en sostenibilidad y gobernanza. A medida que se implementen mejores prácticas, se espera mejorar aún más estos puntajes en el próximo ciclo de evaluación.
+
+#### Perspectivas de Similitud de Texto
+- Se hallaron coincidencias clave con las regulaciones legales argentinas en áreas de sostenibilidad y transparencia financiera, pero se identificaron áreas faltantes en la divulgación de desafíos sociales y gobernanza.
+
+#### Mejoras Potenciales
+1. **Aumentar la Transparencia**: Incluir más detalles sobre los desafíos enfrentados en áreas sociales y cómo se abordan.
+2. **Mejorar la Comunicación**: Hacer el informe más accesible y comprensible para todas las partes interesadas.
+3. **Incluir Metas a Largo Plazo**: Presentar un plan a futuro con objetivos específicos en áreas ESG para medir el progreso.
+
+Este resumen debe servir como un recurso claro y conciso para evaluar el desempeño ESG y la conformidad con las regulaciones locales.

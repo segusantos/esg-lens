@@ -1,0 +1,141 @@
+{
+  "SUMMARY": {
+    "resultados": [
+      {
+        "valor": "440,000 toneladas anuales de aluminio producidas a partir de fuentes de energía renovables.",
+        "categoria": "Medioambiente",
+        "descripcion": "El 40% de la producción de aluminio primario fue de fuentes renovables como eólica e hidroeléctrica, disminuyendo las emisiones de GEI.",
+        "keywords": [
+          "aluminio",
+          "energía renovable",
+          "emisiones",
+          "producción"
+        ]
+      },
+      {
+        "valor": "30% de la producción destinada al mercado local, 70% exportado a mercados internacionales.",
+        "categoria": "Social",
+        "descripcion": "Modelo de negocio de Aluar apoyando el crecimiento local y la integración en mercados globales.",
+        "keywords": [
+          "mercado local",
+          "exportación",
+          "modelo de negocio"
+        ]
+      },
+      {
+        "valor": "150,000 toneladas de CO2 reducidas anualmente a través de proyectos de sostenibilidad.",
+        "categoria": "Medioambiente",
+        "descripcion": "Ahorro en emisiones de gases de efecto invernadero mediante inversiones en energías renovables.",
+        "keywords": [
+          "reducción de emisiones",
+          "CO2",
+          "sostenibilidad"
+        ]
+      },
+      {
+        "valor": "Inversión de $400 millones en energía renovable para instalación de 56 aerogeneradores.",
+        "categoria": "Gobernanza",
+        "descripcion": "Compromiso financiero con el desarrollo sostenible y la innovación energética.",
+        "keywords": [
+          "inversión",
+          "energía eólica",
+          "sostenibilidad"
+        ]
+      },
+      {
+        "valor": "92% de satisfacción del cliente en la calidad de productos y servicios.",
+        "categoria": "Social",
+        "descripcion": "Indicador de desempeño en calidad y satisfacción del cliente, evaluado a través de encuestas.",
+        "keywords": [
+          "satisfacción del cliente",
+          "calidad de productos",
+          "desempeño"
+        ]
+      },
+      {
+        "valor": "Implementación de políticas de Derechos Humanos y gestión contra el acoso en el trabajo.",
+        "categoria": "Gobernanza",
+        "descripcion": "Normativas implementadas para promover un entorno laboral respetuoso y seguro.",
+        "keywords": [
+          "derechos humanos",
+          "políticas laborales",
+          "acoso"
+        ]
+      },
+      {
+        "valor": "40 campañas de formación y sensibilización en temas sociales y ambientales realizadas durante el año.",
+        "categoria": "Social",
+        "descripcion": "Esfuerzos en educación y concientización sobre sostenibilidad y derechos de los trabajadores.",
+        "keywords": [
+          "formación",
+          "campañas",
+          "sostenibilidad"
+        ]
+      },
+      {
+        "valor": "55% de reducción en la huella de residuos a través de programas de reciclaje.",
+        "categoria": "Medioambiente",
+        "descripcion": "Iniciativas para minimizar residuos y promover la economía circular en la planta.",
+        "keywords": [
+          "residuos",
+          "reciclaje",
+          "huella de carbono"
+        ]
+      },
+      {
+        "valor": "Cumplimiento con normas ISO 9001, ISO 14001 y certificación ASI para estándares de sostenibilidad.",
+        "categoria": "Gobernanza",
+        "descripcion": "Adopción de normas internacionales para la gestión de calidad y sostenibilidad.",
+        "keywords": [
+          "certificaciones",
+          "normas ISO",
+          "gestión sostenible"
+        ]
+      },
+      {
+        "valor": "Aluar genera 2,000 empleos directos y contribuye al desarrollo de la comunidad local.",
+        "categoria": "Social",
+        "descripcion": "Impacto social de las operaciones de Aluar en el desarrollo económico y social de la región.",
+        "keywords": [
+          "empleos",
+          "comunidad",
+          "desarrollo local"
+        ]
+      }
+    ]
+  },
+  "SCORES": {
+    "company_pdf": "Aluar 2023-2024.pdf",
+    "company_name": "Aluar Aluminio Argentino SAIC",
+    "global_enviroment_score": 18,
+    "enviroment_scores": {
+      "Emissions": 22,
+      "Resource Use": 7,
+      "Innovation": 50
+    },
+    "global_social_score": 32,
+    "social_scores": {
+      "Human Rights": 24,
+      "Product Responsibility": 60,
+      "Workforce": 25,
+      "Community": 46
+    },
+    "global_governance_score": 41,
+    "governance_scores": {
+      "Management": 49,
+      "Shareholders": 29,
+      "CSR Strategy": 20
+    },
+    "overall_score": 29
+  },
+  "LAWSCORES": [],
+  "FEEDBACK": "He analizado el informe ESG proporcionado y a continuación te presento un resumen de las secciones relacionadas con las pautas de divulgación de información ASG recomendadas por la CNV, indicando cuáles faltan o están incompletas:\n\n1. **Identificación de la audiencia**:\n   - **Presente**: Se mencionan los grupos de interés involucrados, incluyendo empleados, gobierno, comunidad y proveedores. Se lleva a cabo un análisis para identificar sus necesidades y expectativas.\n   - **Comentario**: Aunque se identifican varios grupos, podría haber más detalle sobre cómo se involucra a todos los grupos en el proceso de toma de decisiones.\n\n2. **Materialidad**:\n   - **Presente**: Se realizó un análisis de materialidad basado en resultados de encuestas a distintos grupos de interés.\n   - **Comentario**: El informe menciona la doble materialidad, pero no se presenta de manera explícita en todos los temas materiales relevantes. Se recomienda una claridad sobre cómo se priorizan los temas tanto desde la perspectiva financiera como de impacto.\n\n3. **Indicadores de desempeño**:\n   - **Presente**: Se utilizan indicadores internacionales reconocidos como GRI, pero puede faltar más contexto sobre la selección de estos indicadores y su metodología.\n   - **Comentario**: Se necesita información más detallada sobre los criterios utilizados para seleccionar estos indicadores.\n\n4. **Estrategias y metas**:\n   - **Presente**: Se describe la estrategia de sostenibilidad y se mencionan objetivos, pero estos no son específicos en términos de medibles a corto, mediano y largo plazo.\n   - **Comentario**: Se recomienda establecer metas claras y medibles para fortalecer esta sección.\n\n5. **Mecanismos de gobernanza**:\n   - **Presente**: Se discuten los mecanismos de gobernanza en relación a la ética y la integridad.\n   - **Comentario**: Falta más detalle sobre la estructura específica de gobernanza relacionada con los aspectos ASG y las responsabilidades asignadas.\n\n6. **Acciones llevadas a cabo**:\n   - **Presente**: Se mencionan varias iniciativas y programas implementados durante el período reportado.\n   - **Comentario**: Se sugiere incluir un desglose más claro de las acciones en relación con cada tema material, junto con su impacto medido.\n\n7. **Verificación externa**:\n   - **Presente**: El informe no indica claramente si el reporte ha sido sometido a verificación externa.\n   - **Comentario**: Sería útil mencionar si la información ha sido auditada por un tercero y cuál fue el alcance de esa auditoría.\n\nEn resumen, aunque el reporte incluye muchas de las secciones requeridas, se nota que algunos aspectos podrían beneficiarse de una mayor claridad y profundidad, especialmente en lo que respecta a la formulación de metas y la justificación de los indicadores utilizados.",
+  "CONCLUSION": "### Resumen del Informe ESG de Aluar Aluminio Argentino SAIC\n\n#### **Hallazgos Clave**\n- **Producción Sostenible**: Aluar produce 440,000 toneladas anuales de aluminio, utilizando un 40% de fuentes de energía renovables, lo que contribuye a la reducción de emisiones de gases de efecto invernadero (GEI).\n- **Impacto Social**: Se generan 2,000 empleos directos, con un 30% de la producción destinada al mercado local y el 70% a exportación.\n- **Inversión en Energías Renovables**: Se realizó una inversión de $400 millones en energía eólica, instalando 56 aerogeneradores.\n- **Compromiso con Normas Internacionales**: Cumple con certificaciones ISO 9001, ISO 14001 y ASI, evidenciando una gestión sostenible.\n\n#### **Evaluación de Cumplimiento**\nEl informe presenta muchas de las secciones requeridas, aunque algunas faltan de profundidad:\n- **Materialidad**: Se menciona pero debería explicitizar cómo se priorizan los temas de doble materialidad.\n- **Metas Estratégicas**: Las metas no son específicas ni medibles, recomendándose su clarificación.\n- **Verificación Externa**: Falta información sobre auditoría externa del reporte.\n\n#### **Interpretación de los Puntajes ESG**\n- **Puntuaciones Globales**: \n  - **Ambiental**: 18\n  - **Social**: 32\n  - **Gobernanza**: 41\n  - **Puntuación General**: 29\n- Estas puntajes reflejan un enfoque moderado hacia la sostenibilidad en comparación con los estándares de la industria.\n\n#### **Perspectivas de Similitud de Texto**\n- Se identifican áreas de alineación con regulaciones argentinas en temas de derechos humanos, gobernanza y sostenibilidad. Sin embargo, falta claridad en la justificación de la elección de indicadores y su metodología.\n\n#### **Mejoras Potenciales**\n1. **Claridad en Objetivos**: Establecer metas claras y medibles para las estrategias de sostenibilidad.\n2. **Explicación de Indicadores**: Proveer un contexto más profundo sobre la selección de indicadores.\n3. **Detalles sobre Gobernanza**: Incluir una descripción más clara de la estructura de gobernanza relacionada con ASG y sus responsabilidades asignadas.\n\nEste resumen ofrece una visión clara y concisa sobre el desempeño ESG y su cumplimiento, facilitando la toma de decisiones estratégicas hacia la sostenibilidad en Aluar.",
+  "company": "Aluar Aluminio Argentino",
+  "year": 2023,
+  "industry": "Consumer Goods",
+  "publish_date": "2025-03-30",
+  "ticker": "ALUA",
+  "file_name": "Aluar 2023-2024",
+  "id": "7d594729-65b7-4ccb-a990-354241c85f74"
+}

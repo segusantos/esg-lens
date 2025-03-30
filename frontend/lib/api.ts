@@ -1,6 +1,7 @@
 // API client for connecting to the Python backend
 
 import axios from 'axios';
+import { assert } from 'node:console';
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api';
 
@@ -38,29 +39,6 @@ export interface ReportFilters {
   year?: number;
   industry?: string;
   sortBy?: string;
-}
-
-// Function to rename snake_case to camelCase properties
-function toCamelCase(report: any): any {
-  // If it's not an object or null, return it as is
-  if (typeof report !== 'object' || report === null) {
-    return report;
-  }
-
-  // If it's an array, map over its elements
-  if (Array.isArray(report)) {
-    return report.map(item => toCamelCase(item));
-  }
-
-  // It's an object, convert keys to camelCase
-  const camelCaseObj: any = {};
-  for (const key in report) {
-    if (Object.prototype.hasOwnProperty.call(report, key)) {
-      const camelKey = key.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
-      camelCaseObj[camelKey] = toCamelCase(report[key]);
-    }
-  }
-  return camelCaseObj;
 }
 
 // Get all reports with optional filtering
@@ -110,8 +88,10 @@ export async function uploadReport(formData: FormData): Promise<ESGReport> {
 export interface ComparisonParams {
   company1?: string;
   company2?: string;
-  year1?: number;
-  year2?: number;
+  company?: string;
+  year?: string;
+  year1?: string;
+  year2?: string;
 }
 
 export interface ComparisonResult {
@@ -125,16 +105,80 @@ export async function compareReports(params: ComparisonParams): Promise<Comparis
 
   if (params.company1) queryParams.append("company1", params.company1);
   if (params.company2) queryParams.append("company2", params.company2);
-  if (params.year1) queryParams.append("year1", params.year1.toString());
-  if (params.year2) queryParams.append("year2", params.year2.toString());
+  if (params.company) queryParams.append("company", params.company);
+  if (params.year) queryParams.append("year", params.year);
+  if (params.year1) queryParams.append("year1", params.year1);
+  if (params.year2) queryParams.append("year2", params.year2);
 
-  const response = await fetch(`${API_URL}/compare?${queryParams.toString()}`);
+  try {
+    const response = await fetch(`${API_URL}/compare?${queryParams.toString()}`);
 
-  if (!response.ok) {
-    throw new Error("Failed to compare reports");
+    if (!response.ok) {
+      // If the backend comparison fails, we'll manually simulate the comparison using individual reports
+      if (params.company1 && params.company2 && params.year) {
+        // Compare two companies for the same year
+        const reports = await getReports();
+        
+        if (!Array.isArray(reports) || reports.length === 0) {
+          throw new Error("No reports available for comparison");
+        }
+
+        const report1 = reports.find(r => 
+          (r.ticker && r.ticker.includes(params.company1 as string)) || 
+          r.company.includes(params.company1 as string));
+          
+        const report2 = reports.find(r => 
+          (r.ticker && r.ticker.includes(params.company2 as string)) || 
+          r.company.includes(params.company2 as string));
+
+        if (!report1 || !report2) {
+          throw new Error("One or both companies not found");
+        }
+
+        return {
+          type: "companies",
+          report1,
+          report2
+        };
+      } 
+      else if (params.company && params.year1 && params.year2) {
+        // Compare same company across different years
+        const reports = await getReports();
+        
+        if (!Array.isArray(reports) || reports.length === 0) {
+          throw new Error("No reports available for comparison");
+        }
+
+        const report1 = reports.find(r => 
+          ((r.ticker && r.ticker.includes(params.company as string)) || 
+           r.company.includes(params.company as string)) && 
+          r.year.toString() === params.year1);
+          
+        const report2 = reports.find(r => 
+          ((r.ticker && r.ticker.includes(params.company as string)) || 
+           r.company.includes(params.company as string)) && 
+          r.year.toString() === params.year2);
+
+        if (!report1 || !report2) {
+          throw new Error("Reports for the specified years not found");
+        }
+
+        return {
+          type: "years",
+          report1,
+          report2
+        };
+      }
+      
+      throw new Error("Failed to compare reports");
+    }
+
+    const data = await response.json();
+    return data as ComparisonResult;
+  } catch (error) {
+    console.error("Error comparing reports:", error);
+    throw error;
   }
-
-  return response.json();
 }
 
 // API functions
@@ -146,7 +190,7 @@ export const api = {
       const data = response.data;
       // Ensure we always return an array, even if the backend returns null or undefined
       if (!data) return [];
-      return toCamelCase(data) as ESGReport[];
+      return data as ESGReport[];
     } catch (error) {
       console.error('Error fetching reports:', error);
       // Return empty array on error instead of throwing
@@ -158,7 +202,7 @@ export const api = {
   async getReport(id: string) {
     try {
       const response = await apiClient.get(`/reports/${id}`);
-      return toCamelCase(response.data) as ESGReport;
+      return response.data as ESGReport; 
     } catch (error) {
       console.error(`Error fetching report ${id}:`, error);
       throw error;
@@ -169,7 +213,7 @@ export const api = {
   async createReport(report: Omit<ESGReport, 'id'>) {
     try {
       const response = await apiClient.post('/reports', report);
-      return toCamelCase(response.data) as ESGReport;
+      return response.data as ESGReport;
     } catch (error) {
       console.error('Error creating report:', error);
       throw error;
@@ -185,6 +229,11 @@ export const api = {
       console.error(`Error deleting report ${id}:`, error);
       throw error;
     }
+  },
+
+  // Compare reports
+  async compareReports(params: ComparisonParams): Promise<ComparisonResult> {
+    return compareReports(params);
   },
 
   // Check API health

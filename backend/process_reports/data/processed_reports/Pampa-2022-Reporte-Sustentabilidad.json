@@ -1,0 +1,249 @@
+{
+  "SUMMARY": {
+    "resultados": [
+      {
+        "valor": "690,820 m³",
+        "categoria": "Medioambiente",
+        "descripcion": "Extracción de agua proveniente de zonas de estrés hídrico en 2022, reduciendo un 25.2% con respecto a 2021.",
+        "keywords": [
+          "agua",
+          "estrés hídrico",
+          "medidas ambientales"
+        ]
+      },
+      {
+        "valor": "11,863 tCO2e",
+        "categoria": "Medioambiente",
+        "descripcion": "Emisiones de GEI en la generación de energía, representando el 86.3% del total de emisiones en 2022.",
+        "keywords": [
+          "emisiones",
+          "generación de energía",
+          "GEI"
+        ]
+      },
+      {
+        "valor": "500,000 certificados de emisiones",
+        "categoria": "Medioambiente",
+        "descripcion": "Se estima llegar a emitir anualmente certificados por prácticas sostenibles en parques eólicos.",
+        "keywords": [
+          "certificados",
+          "emisiones",
+          "energía renovable"
+        ]
+      },
+      {
+        "valor": "908 millones de USD",
+        "categoria": "Gobernanza",
+        "descripcion": "EBITDA ajustado consolidado en 2022, reflejando una leve variación positiva del 1.0% respecto al año anterior.",
+        "keywords": [
+          "EBITDA",
+          "gobernanza",
+          "finanzas"
+        ]
+      },
+      {
+        "valor": "2,013 empleados",
+        "categoria": "Social",
+        "descripcion": "Total de empleados propios en 2022, con un 15.3% de mujeres, aumentando 5.3% respecto a 2021.",
+        "keywords": [
+          "empleo",
+          "equidad de género",
+          "recursos humanos"
+        ]
+      },
+      {
+        "valor": "43.6%",
+        "categoria": "Social",
+        "descripcion": "Tasa de accidentes laborales con pérdida de días, disminuyendo un 45.9% respecto a 2021.",
+        "keywords": [
+          "seguridad laboral",
+          "accidentes",
+          "gestión de riesgos"
+        ]
+      },
+      {
+        "valor": "C en cambio climático y B- en seguridad hídrica",
+        "categoria": "Medioambiente",
+        "descripcion": "Calificaciones por Carbon Disclosure Project (CDP) en 2022, mostrando un avance comparativo.",
+        "keywords": [
+          "calificaciones",
+          "CDP",
+          "cambio climático"
+        ]
+      },
+      {
+        "valor": "63.1 mil de boe/día",
+        "categoria": "Medioambiente",
+        "descripcion": "Producción de hidrocarburos en 2022, mostrando un crecimiento del 21.8% con respecto a 2021.",
+        "keywords": [
+          "hidrocarburos",
+          "producción",
+          "crecimiento"
+        ]
+      },
+      {
+        "valor": "3,600 m³",
+        "categoria": "Medioambiente",
+        "descripcion": "Agua reutilizada para riego en 2022, con un aumento del 13.5% respecto a 2021.",
+        "keywords": [
+          "reutilización",
+          "agua",
+          "sostenibilidad"
+        ]
+      },
+      {
+        "valor": "92% de satisfacción",
+        "categoria": "Social",
+        "descripcion": " Porcentaje de satisfacción en encuestas evaluativas de programas de inversión social realizados en 2022.",
+        "keywords": [
+          "satisfacción",
+          "inversión social",
+          "evaluación"
+        ]
+      }
+    ]
+  },
+  "SCORES": {
+    "company_pdf": "Pampa-2022-Reporte-Sustentabilidad.pdf",
+    "company_name": "Pampa Energia SA",
+    "global_enviroment_score": 38,
+    "enviroment_scores": {
+      "Emissions": 27,
+      "Resource Use": 71,
+      "Innovation": 16
+    },
+    "global_social_score": 45,
+    "social_scores": {
+      "Human Rights": 5,
+      "Product Responsibility": 77,
+      "Workforce": 57,
+      "Community": 40
+    },
+    "global_governance_score": 95,
+    "governance_scores": {
+      "Management": 97,
+      "Shareholders": 88,
+      "CSR Strategy": 95
+    },
+    "overall_score": 55
+  },
+  "LAWSCORES": [
+    {
+      "Law": "Law 26473 Prohibiting commercialisation of incandescent light bulbs",
+      "Score": 0.3940595984458923
+    },
+    {
+      "Law": "Law 26.093 (2006) Regimen of Regulation and Promotion of the Production and Sustainable Use of Biofuels",
+      "Score": 0.5041438341140747
+    },
+    {
+      "Law": "Law 26.123 (2006) Promotion of Hydrogen Energy",
+      "Score": 0.4336731433868408
+    },
+    {
+      "Law": "Law 25.019 Declaring a national interest to generate electricity from wind and solar energy",
+      "Score": 0.3336637020111084
+    },
+    {
+      "Law": "Tax Reform Act nr. 27.430",
+      "Score": 0.5307694673538208
+    },
+    {
+      "Law": "Law 27.424 instituting the regime to promote the distributed generation of renewable energy integrated into the public electricity network",
+      "Score": 0.4370028376579284
+    },
+    {
+      "Law": "Law no 22520 on the responsibilities of ministries",
+      "Score": 0.3760010600090027
+    },
+    {
+      "Law": "Yolanda's law (no 27592)",
+      "Score": 0.5174238085746765
+    },
+    {
+      "Law": "Law no 27.640 setting the regulatory framework for biofuels",
+      "Score": 0.3364043831825256
+    },
+    {
+      "Law": "Law 26.190 Regime for the National Promotion for the Production and Use of Renewable Sources of Electric Energy",
+      "Score": 0.4070949554443359
+    },
+    {
+      "Law": "Law 27191 on Renewable Energy",
+      "Score": 0.3762134611606598
+    },
+    {
+      "Law": "Law 26.639 on Minimum Standards for Preservation of Glaciers and Periglacial Environment",
+      "Score": 0.3244965970516205
+    },
+    {
+      "Law": "Law no 27424 creating the Promotion Regime for Distributed Generation of Renewable Energy Integrated in the Public Electricity Grid",
+      "Score": 0.4108377695083618
+    },
+    {
+      "Law": "Law 25.080 for investments in cultivated forests",
+      "Score": 0.5163241028785706
+    },
+    {
+      "Law": "Law No. 27.287 - National System for Integral Risk Management and Civil Protection",
+      "Score": 0.3928949534893036
+    },
+    {
+      "Law": "Law No. 26,509 creating the National System for the Prevention and Mitigation of Agricultural Emergencies and Disasters",
+      "Score": 0.4306721091270447
+    },
+    {
+      "Law": "Law No. 12,307 creating the Bicameral Commission for the attention and monitoring of natural disasters",
+      "Score": 0.4206939339637756
+    },
+    {
+      "Law": "Law 27520 on Minimum Budgets for Adaptation and Mitigation to Global Climate Change",
+      "Score": 0.4572730660438537
+    },
+    {
+      "Law": "Law No. 27209 (tax exemptions on liquid fuels and natural gas)",
+      "Score": 0.5743759274482727
+    },
+    {
+      "Law": "Law 27.592 or Yolanda's Law",
+      "Score": 0.41572105884552
+    },
+    {
+      "Law": "Resolution 267/2019 National plan for the restoration of native forests",
+      "Score": 0.4882171750068664
+    },
+    {
+      "Law": "Resolution 520/2018 on Regulation of solar thermal heaters",
+      "Score": 0.4239041805267334
+    },
+    {
+      "Law": "Law 27,605 on the solidary and extraordinary contribution to help mitigate the effects of the pandemic, including gas sector development subsidies",
+      "Score": 0.3804848194122314
+    },
+    {
+      "Law": "Law 27,520 on Minimum Budget for adaptation and mitigation of climate change",
+      "Score": 0.4484253227710724
+    },
+    {
+      "Law": "Law 27,487 on Extension and amendment of Law Nr 25,080 related to the investments for cultivated forests",
+      "Score": 0.42657071352005
+    },
+    {
+      "Law": "Law 26,562 on Minimum Environmental Protection Budgets to Control Burning Activities",
+      "Score": 0.4592887163162231
+    },
+    {
+      "Law": "Law 26,566 on Nuclear Activity",
+      "Score": 0.4905695021152496
+    }
+  ],
+  "FEEDBACK": "\"He analizado el reporte ESG de Pampa Energía y aquí están las secciones recomendadas por la Guía de la CNV para la divulgación de información ambiental, social y de gobernanza (ASG) que faltan o están incompletas:\\n\\n1. **Identificación de la audiencia**:\\n   - **Conclusión**: El reporte menciona a los grupos de interés, pero una evaluación más exhaustiva sobre la consideración de sus necesidades específicas podría ser beneficiosa.\\n\\n2. **Materialidad**:\\n   - **Conclusión**: Se realizan análisis de materialidad que incluyen la doble materialidad, pero no se detalla suficientemente el proceso de determinación de los temas materiales ni se discute el impacto potencial en los grupos de interés.\\n\\n3. **Indicadores de desempeño**:\\n   - **Conclusión**: Aunque se utilizan algunos indicadores reconocidos (como GRI y SASB), no todos los indicadores están completamente reportados o contextualizados.\\n\\n4. **Estrategias y metas**:\\n   - **Conclusión**: Las estrategias están algo descritas, pero falta claridad sobre las metas específicas a corto, mediano y largo plazo en relación con los temas materiales.\\n\\n5. **Mecanismos de gobernanza**:\\n   - **Conclusión**: Existen menciones de mecanismos de gobernanza y el papel del directorio, pero no se proporciona suficiente detalle sobre cómo se supervisan los impactos ASG.\\n\\n6. **Acciones llevadas a cabo**:\\n   - **Conclusión**: Se describen algunas acciones, pero se requiere una mayor profundidad en la relación entre las acciones emprendidas y los temas materiales identificados.\\n\\n7. **Verificación externa**:\\n   - **Conclusión**: El reporte menciona el sometimiento a verificación externa en varios puntos, pero no se detalla el proceso ni la frecuencia con la que se lleva a cabo.\\n\\nEn resumen, aunque el reporte cubre varias áreas clave, hay oportunidades para mejorar la claridad y la profundidad de la información proporcionada en relación con los lineamientos de la CNV.\"",
+  "CONCLUSION": "\"# Resumen del Informe ESG de Pampa Energía\\n\\n## Hallazgos Clave:\\nEl informe ESG de Pampa Energía presenta varios indicadores de sostenibilidad y responsabilidad social que reflejan un compromiso con la mejora continua. Se destacan las siguientes métricas:\\n\\n- **Medioambiente**: Reducción del 25.2% en la extracción de agua en zonas de estrés hídrico, con un total de **690,820 m³**. Las emisiones de GEI ascienden a **11,863 tCO2e**, representando el 86.3% de las emisiones totales. Se proyecta emitir **500,000 certificados de emisiones** mediante prácticas sostenibles en parques eólicos.\\n  \\n- **Social**: Un total de **2,013 empleados**, de los cuales el 15.3% son mujeres, con una tasa de accidentes laborales reducida en un 45.9% desde 2021 (43.6% de tasa de accidentes).\\n\\n- **Gobernanza**: EBITDA ajustado de **908 millones de USD**, con buenas calificaciones en gestión y estrategia de responsabilidad social.\\n\\n## Evaluación de Cumplimiento:\\nEl informe muestra áreas de alineación y discrepancia con la legislación y las pautas estandarizadas en ESG. Classificaciones de similitud con leyes argentinas como la Ley 26.093 y la Ley 27.424 muestran un cumplimiento moderado.\\n\\n- **Cumplimiento General**: **Score Global**: 55\\n  - **Ambiental**: 38\\n  - **Social**: 45\\n  - **Gobernanza**: 95\\n\\n## Interpretación de los Puntajes ESG:\\nLos puntajes obtenidos reflejan un desempeño desigual. Mientras que la gobernanza presenta un puntaje fuerte (95), el desempeño ambiental es deficiente (38), especialmente en emisiones y uso de recursos.\\n\\n## Perspectivas de Similitud de Texto:\\nAlgunos apartados del informe muestran similitudes con regulaciones como:\\n- Ley 26.093 (producción y uso sostenible de biocombustibles): Score de similitud del **50%**.\\n- Ley 27.424 (generación de energía renovable): Score de similitud del **43%**.\\n\\nSin embargo, áreas críticas como la evaluación de impacto y la verificación de procesos muestran puntuaciones más bajas (alrededor del **33%**).\\n\\n## Mejoras Potenciales:\\n1. **Identificación de Audiencia**: Incluir una evaluación más detallada de las necesidades de los grupos de interés.\\n  \\n2. **Materialidad**: Mejorar la clara definición de los temas materiales y su impacto en los grupos de interés.\\n\\n3. **Indicadores de Desempeño**: Autorizar la completa contextualización sobre todos los indicadores utilizados.\\n\\n4. **Estrategias y Metas**: Aclarar y establecer metas específicas a corto y largo plazo en relación con los temas materiales.\\n\\n5. **Mecanismos de Gobernanza**: Detallar cómo se supervisan los impactos ESG y la elaboración de políticas de mitigación.\\n\\n6. **Acciones Llevadas a Cabo**: Conectar más explícitamente las acciones emprendidas con los temas materiales.\\n\\n7. **Verificación Externa**: Incluir más detalles sobre el proceso de verificación externa y su frecuencia.\\n\\nEl informe ESG de Pampa Energía es un paso importante hacia una mayor transparencia y responsabilidad social, pero se pueden hacer mejoras significativas para alinear plenamente las prácticas de la empresa con las regulaciones y expectativas ESG.\"",
+  "company": "Pampa Energia",
+  "year": 2023,
+  "industry": "Energy",
+  "publish_date": "2025-03-30",
+  "ticker": "PAMP",
+  "file_name": "Pampa-2022-Reporte-Sustentabilidad",
+  "id": "69d9afda-a44f-498b-bb4e-22451cf6c99f"
+}

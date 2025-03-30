@@ -10,7 +10,6 @@ export function MainNav() {
 
   const navItems = [
     { href: "/dashboard", label: "Panel principal" },
-    { href: "/upload", label: "Subir informe" },
     { href: "/compare", label: "Comparar informes" },
   ]
 
@@ -32,6 +31,17 @@ export function MainNav() {
           {item.label}
         </Link>
       ))}
+      <Link
+        href="/upload"
+        className={cn(
+          "text-sm font-medium transition-colors ml-auto rounded-full px-4 py-2",
+          pathname === "/upload"
+            ? "bg-indigo-600 text-white"
+            : "bg-indigo-100 text-indigo-800 hover:bg-indigo-200"
+        )}
+      >
+        Subir informe
+      </Link>
     </nav>
   )
 }

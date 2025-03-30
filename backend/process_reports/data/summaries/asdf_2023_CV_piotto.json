@@ -1,0 +1,34 @@
+{
+    "resultados": [
+        {
+            "valor": "Carbon emissions decreased by 20%",
+            "categoria": "Medioambiente",
+            "descripcion": "Reduction in total carbon emissions compared to the previous year.",
+            "keywords": [
+                "carbon emissions",
+                "environmental reduction",
+                "2022"
+            ]
+        },
+        {
+            "valor": "Employee engagement score of 85%",
+            "categoria": "Social",
+            "descripcion": "Score from the annual employee engagement survey.",
+            "keywords": [
+                "employee engagement",
+                "workplace satisfaction",
+                "survey results"
+            ]
+        },
+        {
+            "valor": "Board diversity increased to 40%",
+            "categoria": "Gobernanza",
+            "descripcion": "Increase in gender and ethnic diversity on the board of directors.",
+            "keywords": [
+                "board diversity",
+                "governance",
+                "inclusion"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,249 @@
+{
+  "SUMMARY": {
+    "resultados": [
+      {
+        "valor": "160,000 hectares",
+        "categoria": "Social",
+        "descripcion": "Total area after acquiring assets, mostly consisting of pine and eucalyptus plantations in Corrientes and Entre Ríos, Argentina.",
+        "keywords": [
+          "hectares",
+          "forestry",
+          "Sustainability"
+        ]
+      },
+      {
+        "valor": "58% increase",
+        "categoria": "Social",
+        "descripcion": "Increase in generation at the Piedra del Águila Hydro Power Plant compared to 2022.",
+        "keywords": [
+          "Hydroelectric generation",
+          "Piedra del Águila",
+          "increase"
+        ]
+      },
+      {
+        "valor": "37.2 million",
+        "categoria": "Social",
+        "descripcion": "Total greenhouse gas emissions measured in tons of CO2 equivalent.",
+        "keywords": [
+          "emissions",
+          "greenhouse gases",
+          "Carbon footprint"
+        ]
+      },
+      {
+        "valor": "0.8 tons CO2e/MWh",
+        "categoria": "Social",
+        "descripcion": "CO2 emissions per produced MWh in 2023.",
+        "keywords": [
+          "CO2",
+          "emissions",
+          "MWh"
+        ]
+      },
+      {
+        "valor": "ISO certifications",
+        "categoria": "Social",
+        "descripcion": "The company holds ISO certifications 14001, 9001, and 45001, reflecting its commitment to sustainability and safety standards.",
+        "keywords": [
+          "ISO 14001",
+          "ISO 9001",
+          "ISO 45001"
+        ]
+      },
+      {
+        "valor": "32.88% decrease",
+        "categoria": "Social",
+        "descripcion": "Decrease in the total volume of recyclable waste generated, with an increase in the proportion of recyclable materials.",
+        "keywords": [
+          "waste management",
+          "recyclable materials",
+          "decrease"
+        ]
+      },
+      {
+        "valor": "$150 million",
+        "categoria": "Social",
+        "descripcion": "Estimated investment required to close the Combined Cycle at Brigadier Lopez Thermal Power Plant, aiming to supply 300,000 households.",
+        "keywords": [
+          "investment",
+          "thermal energy",
+          "Brigadier Lopez"
+        ]
+      },
+      {
+        "valor": "10,000 tons",
+        "categoria": "Social",
+        "descripcion": "Total weight in materials donated for recycling in 2023.",
+        "keywords": [
+          "recycling",
+          "materials donated",
+          "social responsibility"
+        ]
+      },
+      {
+        "valor": "37,232,818",
+        "categoria": "Social",
+        "descripcion": "Amount in USD for the issuance of negotiable obligations for working capital needs.",
+        "keywords": [
+          "capital",
+          "financial management",
+          "bonds"
+        ]
+      },
+      {
+        "valor": "Sustainability Management",
+        "categoria": "Gobernanza",
+        "descripcion": "Implementation of an Integrated Management System focusing on economic, social, and environmental sustainability.",
+        "keywords": [
+          "ESG",
+          "sustainability",
+          "governance"
+        ]
+      }
+    ]
+  },
+  "SCORES": {
+    "company_pdf": "Central Puerto-Reporte-de-Sustentabilidad-2023-VF.pdf",
+    "company_name": "Central Puerto SA",
+    "global_enviroment_score": 28,
+    "enviroment_scores": {
+      "Emissions": 28,
+      "Resource Use": 29,
+      "Innovation": 27
+    },
+    "global_social_score": 51,
+    "social_scores": {
+      "Human Rights": 88,
+      "Product Responsibility": 74,
+      "Workforce": 34,
+      "Community": 34
+    },
+    "global_governance_score": 53,
+    "governance_scores": {
+      "Management": 46,
+      "Shareholders": 94,
+      "CSR Strategy": 30
+    },
+    "overall_score": 42
+  },
+  "LAWSCORES": [
+    {
+      "Law": "Law 26473 Prohibiting commercialisation of incandescent light bulbs",
+      "Score": 0.4128453135490417
+    },
+    {
+      "Law": "Law 26.093 (2006) Regimen of Regulation and Promotion of the Production and Sustainable Use of Biofuels",
+      "Score": 0.5500998497009277
+    },
+    {
+      "Law": "Law 26.123 (2006) Promotion of Hydrogen Energy",
+      "Score": 0.4285386204719543
+    },
+    {
+      "Law": "Law 25.019 Declaring a national interest to generate electricity from wind and solar energy",
+      "Score": 0.3379490375518799
+    },
+    {
+      "Law": "Tax Reform Act nr. 27.430",
+      "Score": 0.582669198513031
+    },
+    {
+      "Law": "Law 27.424 instituting the regime to promote the distributed generation of renewable energy integrated into the public electricity network",
+      "Score": 0.4017342329025268
+    },
+    {
+      "Law": "Law no 22520 on the responsibilities of ministries",
+      "Score": 0.3688527345657348
+    },
+    {
+      "Law": "Yolanda's law (no 27592)",
+      "Score": 0.5040916204452515
+    },
+    {
+      "Law": "Law no 27.640 setting the regulatory framework for biofuels",
+      "Score": 0.358781635761261
+    },
+    {
+      "Law": "Law 26.190 Regime for the National Promotion for the Production and Use of Renewable Sources of Electric Energy",
+      "Score": 0.3679331243038177
+    },
+    {
+      "Law": "Law 27191 on Renewable Energy",
+      "Score": 0.3642032444477081
+    },
+    {
+      "Law": "Law 26.639 on Minimum Standards for Preservation of Glaciers and Periglacial Environment",
+      "Score": 0.3417787253856659
+    },
+    {
+      "Law": "Law no 27424 creating the Promotion Regime for Distributed Generation of Renewable Energy Integrated in the Public Electricity Grid",
+      "Score": 0.4109939932823181
+    },
+    {
+      "Law": "Law 25.080 for investments in cultivated forests",
+      "Score": 0.6186180114746094
+    },
+    {
+      "Law": "Law No. 27.287 - National System for Integral Risk Management and Civil Protection",
+      "Score": 0.3675301969051361
+    },
+    {
+      "Law": "Law No. 26,509 creating the National System for the Prevention and Mitigation of Agricultural Emergencies and Disasters",
+      "Score": 0.4042184352874756
+    },
+    {
+      "Law": "Law No. 12,307 creating the Bicameral Commission for the attention and monitoring of natural disasters",
+      "Score": 0.3925649523735046
+    },
+    {
+      "Law": "Law 27520 on Minimum Budgets for Adaptation and Mitigation to Global Climate Change",
+      "Score": 0.4392435550689697
+    },
+    {
+      "Law": "Law No. 27209 (tax exemptions on liquid fuels and natural gas)",
+      "Score": 0.5686704516410828
+    },
+    {
+      "Law": "Law 27.592 or Yolanda's Law",
+      "Score": 0.441156268119812
+    },
+    {
+      "Law": "Resolution 267/2019 National plan for the restoration of native forests",
+      "Score": 0.6524757146835327
+    },
+    {
+      "Law": "Resolution 520/2018 on Regulation of solar thermal heaters",
+      "Score": 0.3979189991950989
+    },
+    {
+      "Law": "Law 27,605 on the solidary and extraordinary contribution to help mitigate the effects of the pandemic, including gas sector development subsidies",
+      "Score": 0.3530458509922027
+    },
+    {
+      "Law": "Law 27,520 on Minimum Budget for adaptation and mitigation of climate change",
+      "Score": 0.3611986339092254
+    },
+    {
+      "Law": "Law 27,487 on Extension and amendment of Law Nr 25,080 related to the investments for cultivated forests",
+      "Score": 0.5002902746200562
+    },
+    {
+      "Law": "Law 26,562 on Minimum Environmental Protection Budgets to Control Burning Activities",
+      "Score": 0.4072688221931457
+    },
+    {
+      "Law": "Law 26,566 on Nuclear Activity",
+      "Score": 0.5506983399391174
+    }
+  ],
+  "FEEDBACK": "He revisado el reporte ESG de Central Puerto y he analizado las secciones recomendadas por la Guía de la CNV. Aquí están las áreas que faltan o están incompletas:1. **Identificación de la audiencia**:   - **Faltante**: El reporte no aborda explícitamente si se han considerado todos los grupos de interés relevantes.2. **Materialidad**:   - **Incompleto**: Aunque se menciona un análisis de \"doble materialidad\", falta profundizar en cómo se han considerado los impactos de la empresa sobre la sociedad y el ambiente, además de su impacto financiero en el negocio.3. **Indicadores de desempeño**:   - **Incompleto**: Se utilizan algunos indicadores GRI, pero no se proporciona suficiente contexto sobre la metodología para su selección y cálculo.4. **Estrategias y metas**:   - **Incompleto**: Si bien hay mención de estrategias hacia ciertos objetivos, no están claramente delineadas metas a corto, mediano y largo plazo para todos los temas materiales.5. **Mecanismos de gobernanza**:   - **Incompleto**: Aunque se discuten algunas políticas de cumplimiento y gobernanza, falta información detallada sobre el rol y la responsabilidad del directorio en la gestión de los impactos ESG.6. **Acciones llevadas a cabo**:   - **Incompleto**: Se describen algunas acciones, pero no se proporciona un análisis exhaustivo sobre la efectividad de estas acciones en relación con los temas materiales identiﬁcados.7. **Verificación externa**:   - **Faltante**: El reporte no menciona si ha sido sometido a un proceso de verificación externa, lo cual es crucial para la credibilidad del mismo.Este análisis sugiere que el reporte ESG requiere mejoras para alinear su contenido con los estándares de divulgación ASG establecidos por la CNV.",
+  "CONCLUSION": "### Resumen del Informe ESG de Central Puerto#### Hallazgos Clave:- **Área Social**: Central Puerto ha adquirido 160,000 hectáreas de plantaciones en Corrientes y Entre Ríos, destacando un incremento del 58% en la generación de energía hidroeléctrica en la planta Piedra del Águila.- **Emisiones**: Las emisiones de gases de efecto invernadero alcanzan 37.2 millones de toneladas de CO2 equivalente, con 0.8 toneladas de CO2e por MWh producido.- **Iniciativas de Sostenibilidad**: La empresa posee certificaciones ISO 14001, 9001 y 45001, y ha reducido el volumen de desechos reciclables en un 32.88%.#### Evaluación de Cumplimiento:- El informe presenta áreas significativas de incumplimiento con la **Guía de la CNV**: carece de una identificación clara de la audiencia y un análisis exhaustivo de la materialidad, además de no describir en detalle las estrategias y metas a corto, mediano y largo plazo.- **Comparación con la legislación argentina**: El informe presenta un puntaje de 42, con variaciones en el cumplimiento de leyes relevantes, cuya puntuación promedio se sitúa en torno a 0.4 a 0.6.#### Interpretación de los Puntajes ESG:- **Puntajes Individuales**:  - **Ambiente**: 28  - **Social**: 51  - **Gobernanza**: 53- El puntaje global ESG de 42 sugiere que hay margen considerable para mejorar en el cumplimiento de estándares ambientales.#### Perspectivas de Similitud de Texto:- Varias secciones del informe no reflejan adecuadamente las leyes argentinas. Destacan las siguientes:  - Cumplimiento deficiente con leyes de sostenibilidad y renovables (ej. Ley 27.424 y Ley 27.191).  - Inconsistencias en la gobernanza ambiental conforme a la Ley de Responsabilidades.#### Mejoras Potenciales:1. **Identificación de la audiencia**: Definir claramente los grupos de interés y cómo se involucra a cada uno.2. **Análisis de materialidad**: Profundizar en los impactos sociales y ambientales, más allá de las repercusiones económicas.3. **Estrategias y Metas**: Establecer objetivos claros y medibles con plazos definidos.4. **Mecanismos de gobernanza**: Detallar la responsabilidad del directorio en la gestión ESG.5. **Análisis de efectividad**: Proporcionar información detallada sobre los resultados de las acciones implementadas.6. **Verificación externa**: Incluir un proceso de verificación externa para aumentar la credibilidad del informe.Este resumen proporciona una visión clara sobre el desempeño y áreas de mejora en la gestión ESG de Central Puerto, alineándose con los estándares de regulación y mejores prácticas en Argentina.",
+  "company": "Central Puerto",
+  "year": 2023,
+  "industry": "Consumer Goods",
+  "publish_date": "2025-03-30",
+  "ticker": "CEPU",
+  "file_name": "Central Puerto-Reporte-de-Sustentabilidad-2023-VF",
+  "id": "03d426c8-98ac-4879-8562-cf927a58afe6"
+}

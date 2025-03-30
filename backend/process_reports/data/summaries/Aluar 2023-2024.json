@@ -1,0 +1,105 @@
+{
+    "resultados": [
+        {
+            "valor": "440,000 toneladas anuales de aluminio producidas a partir de fuentes de energía renovables.",
+            "categoria": "Medioambiente",
+            "descripcion": "El 40% de la producción de aluminio primario fue de fuentes renovables como eólica e hidroeléctrica, disminuyendo las emisiones de GEI.",
+            "keywords": [
+                "aluminio",
+                "energía renovable",
+                "emisiones",
+                "producción"
+            ]
+        },
+        {
+            "valor": "30% de la producción destinada al mercado local, 70% exportado a mercados internacionales.",
+            "categoria": "Social",
+            "descripcion": "Modelo de negocio de Aluar apoyando el crecimiento local y la integración en mercados globales.",
+            "keywords": [
+                "mercado local",
+                "exportación",
+                "modelo de negocio"
+            ]
+        },
+        {
+            "valor": "150,000 toneladas de CO2 reducidas anualmente a través de proyectos de sostenibilidad.",
+            "categoria": "Medioambiente",
+            "descripcion": "Ahorro en emisiones de gases de efecto invernadero mediante inversiones en energías renovables.",
+            "keywords": [
+                "reducción de emisiones",
+                "CO2",
+                "sostenibilidad"
+            ]
+        },
+        {
+            "valor": "Inversión de $400 millones en energía renovable para instalación de 56 aerogeneradores.",
+            "categoria": "Gobernanza",
+            "descripcion": "Compromiso financiero con el desarrollo sostenible y la innovación energética.",
+            "keywords": [
+                "inversión",
+                "energía eólica",
+                "sostenibilidad"
+            ]
+        },
+        {
+            "valor": "92% de satisfacción del cliente en la calidad de productos y servicios.",
+            "categoria": "Social",
+            "descripcion": "Indicador de desempeño en calidad y satisfacción del cliente, evaluado a través de encuestas.",
+            "keywords": [
+                "satisfacción del cliente",
+                "calidad de productos",
+                "desempeño"
+            ]
+        },
+        {
+            "valor": "Implementación de políticas de Derechos Humanos y gestión contra el acoso en el trabajo.",
+            "categoria": "Gobernanza",
+            "descripcion": "Normativas implementadas para promover un entorno laboral respetuoso y seguro.",
+            "keywords": [
+                "derechos humanos",
+                "políticas laborales",
+                "acoso"
+            ]
+        },
+        {
+            "valor": "40 campañas de formación y sensibilización en temas sociales y ambientales realizadas durante el año.",
+            "categoria": "Social",
+            "descripcion": "Esfuerzos en educación y concientización sobre sostenibilidad y derechos de los trabajadores.",
+            "keywords": [
+                "formación",
+                "campañas",
+                "sostenibilidad"
+            ]
+        },
+        {
+            "valor": "55% de reducción en la huella de residuos a través de programas de reciclaje.",
+            "categoria": "Medioambiente",
+            "descripcion": "Iniciativas para minimizar residuos y promover la economía circular en la planta.",
+            "keywords": [
+                "residuos",
+                "reciclaje",
+                "huella de carbono"
+            ]
+        },
+        {
+            "valor": "Cumplimiento con normas ISO 9001, ISO 14001 y certificación ASI para estándares de sostenibilidad.",
+            "categoria": "Gobernanza",
+            "descripcion": "Adopción de normas internacionales para la gestión de calidad y sostenibilidad.",
+            "keywords": [
+                "certificaciones",
+                "normas ISO",
+                "gestión sostenible"
+            ]
+        },
+        {
+            "valor": "Aluar genera 2,000 empleos directos y contribuye al desarrollo de la comunidad local.",
+            "categoria": "Social",
+            "descripcion": "Impacto social de las operaciones de Aluar en el desarrollo económico y social de la región.",
+            "keywords": [
+                "empleos",
+                "comunidad",
+                "desarrollo local"
+            ]
+        }
+    ]
+}

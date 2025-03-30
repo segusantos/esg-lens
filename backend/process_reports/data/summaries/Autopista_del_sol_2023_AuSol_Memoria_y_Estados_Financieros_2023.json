@@ -1,0 +1,74 @@
+{
+    "resultados": [
+        {
+            "valor": "100% de consumo eléctrico en energía renovable, reduciendo 7,588 tn CO2",
+            "categoria": "Medioambiente",
+            "descripcion": "Lo que equivale a plantar más de 39,000 árboles adultos, indicando un compromiso con la sostenibilidad.",
+            "keywords": [
+                "energía renovable",
+                "reducción CO2",
+                "sostenibilidad"
+            ]
+        },
+        {
+            "valor": "Pasivo de la Sociedad asciende a miles de millones de $95.8",
+            "categoria": "Gobernanza",
+            "descripcion": "Aumento comparado al ejercicio anterior, evidenciando crecimiento y gestión del pasivo.",
+            "keywords": [
+                "pasivo",
+                "gestión financiera",
+                "crecimiento"
+            ]
+        },
+        {
+            "valor": "491 mil vehículos diarios en promedio de tránsito (incremento del 5.1%)",
+            "categoria": "Social",
+            "descripcion": "Refleja una mayor utilización del Acceso Norte, mejorando el acceso a la ciudad.",
+            "keywords": [
+                "tráfico",
+                "acceso norte",
+                "movilidad"
+            ]
+        },
+        {
+            "valor": "Programa de apoyo escolar a más de 100 niños",
+            "categoria": "Social",
+            "descripcion": "Parte de la Fundación 'Ayudar a Soñar', enfocándose en la educación de la comunidad.",
+            "keywords": [
+                "educación",
+                "gestión social",
+                "compromiso comunitario"
+            ]
+        },
+        {
+            "valor": "Índice de Mortalidad 1.0 (promedio)",
+            "categoria": "Social",
+            "descripcion": "Representa el número de fallecidos en relación con el tránsito promedio, mostrando la efectividad de campañas de seguridad vial.",
+            "keywords": [
+                "seguridad vial",
+                "índice de mortalidad",
+                "crecimiento de seguridad"
+            ]
+        },
+        {
+            "valor": "Descarbonización y campaña de seguridad vial lanzada",
+            "categoria": "Medioambiente",
+            "descripcion": "Enfocándose en generar conciencia sobre prácticas seguras y sostenibles en circulación.",
+            "keywords": [
+                "descarbonización",
+                "campaña de concientización",
+                "responsabilidad social"
+            ]
+        },
+        {
+            "valor": "Deuda neta sobre patrimonio = 0, sin préstamos",
+            "categoria": "Gobernanza",
+            "descripcion": "Indica una situación financiera sólida que permite continuar operando sin deudas significativas.",
+            "keywords": [
+                "deuda neta",
+                "solidez financiera",
+                "gobernanza"
+            ]
+        }
+    ]
+}
