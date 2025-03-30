@@ -7,7 +7,7 @@ export default function LandingPage() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-indigo-50 to-indigo-100 px-4">
       <div className="text-center max-w-3xl">
         <div className="mb-6 flex justify-center">
-          <Logo size={80} />
+          <Logo size={250} />
         </div>
         <h1 className="text-4xl font-bold mb-4 text-indigo-800">ESG Lens</h1>
         <p className="text-xl mb-8 text-gray-700">
